@@ -1,0 +1,11 @@
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.deps.json
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.AssemblyInfoInputs.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.AssemblyInfo.cs
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.csproj.CoreCompileInputs.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\refint\Habitat.EscolaDigital.Session.Domain.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Domain\obj\Debug\net9.0\ref\Habitat.EscolaDigital.Session.Domain.dll

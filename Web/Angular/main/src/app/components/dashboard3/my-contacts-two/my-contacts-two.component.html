@@ -1,0 +1,47 @@
+<mat-card class="cardWithShadow overflow-hidden">
+  <div class="p-x-30 p-t-30 p-b-8">
+    <mat-card-title>My Contacts</mat-card-title>
+    <mat-card-subtitle>Checkout my contacts here</mat-card-subtitle>
+  </div>
+
+  <div class="msg-box">
+    @for(msg of msgs; track msg.title) {
+    <div class="p-x-30 p-y-20">
+      <div class="d-flex align-items-center gap-16 w-100">
+        <div class="position-relative d-flex">
+          <img [src]="msg.img" class="rounded-circle" width="48" height="48" />
+          <div
+            matBadge=""
+            matBadgeOverlap="false"
+            class="demo-section bg-success inbox-badge icon-8 border-white rounded-circle"
+          ></div>
+        </div>
+        <div class="d-flex align-items-center justify-content-between w-100">
+          <div>
+            <h5 class="m-b-4 m-t-0 f-s-16 f-w-500">
+              {{ msg.title }}
+            </h5>
+            <span class=" f-s-14">{{ msg.subtitle }}</span>
+          </div>
+          <div class="d-flex align-items-center gap-4">
+            <button
+              class="icon-35 p-2 d-flex align-items-center justify-content-center bg-light-error text-error"
+              mat-icon-button
+              aria-label="Example icon button with a vertical three dot icon"
+            >
+              <i-tabler name="video" class="icon-20 d-flex"></i-tabler>
+            </button>
+            <button
+              class="icon-35 p-2 d-flex align-items-center justify-content-center bg-light-primary text-primary"
+              mat-icon-button
+              aria-label="Example icon button with a vertical three dot icon"
+            >
+              <i-tabler name="phone-incoming" class="icon-20 d-flex"></i-tabler>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</mat-card>

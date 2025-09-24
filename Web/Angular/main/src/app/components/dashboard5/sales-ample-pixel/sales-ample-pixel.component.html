@@ -1,0 +1,49 @@
+<mat-card class="cardWithShadow">
+  <div class="row">
+    <div class="col-lg-6">
+      <mat-card-content class="p-30">
+        <mat-card-title>Newsletter Campaign</mat-card-title>
+        <mat-card-subtitle>Overview of Newsletter Campaign</mat-card-subtitle>
+      </mat-card-content>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <mat-card-content class="b-r-1 p-30">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <mat-card-title class="mat-mdc-card-title f-s-24 f-w-500 m-b-8">$31568</mat-card-title>
+            <mat-card-subtitle class="mat-mdc-card-subtitle f-s-15 f-w-400 m-t-0">Growth</mat-card-subtitle>
+          </div>
+          <div>
+            <span class="icon-45 rounded-circle bg-success text-white d-flex align-items-center justify-content-center">
+              <i-tabler name="chart-line" class="icon-24 d-flex"></i-tabler>
+            </span>
+          </div>
+        </div>
+      </mat-card-content>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <mat-card-content class="p-30">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <mat-card-title class="mat-mdc-card-title f-s-24 f-w-500 m-b-8">$15478</mat-card-title>
+            <mat-card-subtitle class="mat-mdc-card-subtitle f-s-15 f-w-400 m-t-0">Loss</mat-card-subtitle>
+          </div>
+          <div>
+            <span class="icon-45 rounded-circle bg-warning text-white d-flex align-items-center justify-content-center">
+              <i-tabler name="chart-bar" class="icon-24 d-flex"></i-tabler>
+            </span>
+          </div>
+        </div>
+      </mat-card-content>
+    </div>
+  </div>
+  <div class="b-t-1">
+    <apx-chart [series]="salesamplepixelchartOptions.series" [chart]="salesamplepixelchartOptions.chart"
+      [xaxis]="salesamplepixelchartOptions.xaxis" [stroke]="salesamplepixelchartOptions.stroke"
+      [tooltip]="salesamplepixelchartOptions.tooltip" [dataLabels]="salesamplepixelchartOptions.dataLabels"
+      [legend]="salesamplepixelchartOptions.legend" [colors]="salesamplepixelchartOptions.colors"
+      [markers]="salesamplepixelchartOptions.markers" [fill]="salesamplepixelchartOptions.fill"
+      [plotOptions]="salesamplepixelchartOptions.plotOptions" [grid]="salesamplepixelchartOptions.grid"
+      [yaxis]="salesamplepixelchartOptions.yaxis"></apx-chart>
+  </div>
+</mat-card>

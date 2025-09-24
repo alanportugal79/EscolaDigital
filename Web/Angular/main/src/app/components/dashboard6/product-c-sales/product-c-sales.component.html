@@ -1,0 +1,27 @@
+<mat-card class="cardWithShadow">
+  <mat-card-content>
+    <mat-card-title class="m-b-8">Product C Sales</mat-card-title>
+    <div class="d-flex gap-16 m-b-6">
+      <div>
+        <span class="f-s-15">Monthly</span>
+        <h5 class="f-w-500 f-s-14">20.40%</h5>
+      </div>
+      <div>
+        <span class="f-s-15">Daily</span>
+        <h5 class="f-w-500 f-s-14">5.40%</h5>
+      </div>
+    </div>
+    <apx-chart
+      [series]="productcsales.series"
+      [chart]="productcsales.chart"
+      [plotOptions]="productcsales.plotOptions"
+      [xaxis]="productcsales.xaxis"
+      [yaxis]="productcsales.yaxis"
+      [grid]="productcsales.grid"
+      [fill]="productcsales.fill"
+      [tooltip]="productcsales.tooltip"
+      [colors]="productcsales.colors"
+    >
+    </apx-chart>
+  </mat-card-content>
+</mat-card>

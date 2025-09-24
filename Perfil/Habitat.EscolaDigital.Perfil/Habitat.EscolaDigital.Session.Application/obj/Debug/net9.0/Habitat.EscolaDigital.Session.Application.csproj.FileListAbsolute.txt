@@ -1,0 +1,15 @@
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Application.deps.json
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Application.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Application.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.csproj.AssemblyReference.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.AssemblyInfoInputs.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.AssemblyInfo.cs
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.csproj.CoreCompileInputs.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat..BF4BDC54.Up2Date
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\refint\Habitat.EscolaDigital.Session.Application.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Application.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\obj\Debug\net9.0\ref\Habitat.EscolaDigital.Session.Application.dll

@@ -1,0 +1,53 @@
+<mat-card class="cardWithShadow overflow-hidden">
+  <div
+    class="p-x-30 p-y-8 b-b-1 d-flex align-items-center justify-content-between"
+  >
+    <mat-card-title>Earning</mat-card-title>
+    <div>
+      <button
+        class="d-flex align-items-center justify-content-center"
+        mat-icon-button
+        [matMenuTriggerFor]="beforeMenu"
+      >
+        <i-tabler name="dots" class="icon-24 text-body d-flex"></i-tabler>
+      </button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+        <button mat-menu-item>Item 3</button>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class="msg-box p-y-16">
+    @for(msg of msgs; track msg.title) {
+    <div class="p-x-30 p-y-16">
+      <div class="d-flex align-items-center gap-16 w-100">
+        <div class="position-relative d-flex">
+          <img [src]="msg.img" class="rounded-circle" width="48" height="48" />
+          <div
+            matBadge=""
+            matBadgeOverlap="false"
+            class="demo-section bg-success inbox-badge icon-8 border-white rounded-circle"
+          ></div>
+        </div>
+        <div class="d-flex align-items-center justify-content-between w-100">
+          <div>
+            <h5 class="m-b-4 m-t-0 f-s-16 f-w-500">
+              {{ msg.title }}
+            </h5>
+            <span class="f-s-14">{{ msg.subtitle }}</span>
+          </div>
+          <span
+            class="bg-light-{{ msg.color }} text-{{
+              msg.color
+            }} rounded-pill f-w-500 p-x-10 p-y-2 f-s-12 m-l-auto"
+          >
+            {{ msg.earning }}
+          </span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</mat-card>

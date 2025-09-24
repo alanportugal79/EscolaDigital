@@ -1,0 +1,54 @@
+<mat-card class="cardWithShadow">
+  <mat-card-header>
+    <div class="d-sm-flex align-items-center justify-content-between w-100">
+      <div>
+        <mat-card-title>Newsletter Campaign</mat-card-title>
+        <mat-card-subtitle>Overview of Newsletter Campaign</mat-card-subtitle>
+      </div>
+      <div>
+        <div class="hstack flex-row gap-12 align-items-center">
+          <div class="hstack flex-row gap-4 text-primary">
+            <i-tabler name="circle-filled" class="icon-12"></i-tabler>
+            <span class="f-s-14">Open Rate</span>
+          </div>
+          <div class="hstack flex-row gap-4 text-secondary">
+            <i-tabler name="circle-filled" class="icon-12"></i-tabler>
+            <span class="f-s-14">Recurring Payments</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card-header>
+  <mat-card-content>
+    <apx-chart
+      [series]="newsletterchartOptions.series"
+      [chart]="newsletterchartOptions.chart"
+      [xaxis]="newsletterchartOptions.xaxis"
+      [stroke]="newsletterchartOptions.stroke"
+      [tooltip]="newsletterchartOptions.tooltip"
+      [dataLabels]="newsletterchartOptions.dataLabels"
+      [legend]="newsletterchartOptions.legend"
+      [colors]="newsletterchartOptions.colors"
+      [markers]="newsletterchartOptions.markers"
+      [fill]="newsletterchartOptions.fill"
+      [plotOptions]="newsletterchartOptions.plotOptions"
+      [grid]="newsletterchartOptions.grid"
+      [yaxis]="newsletterchartOptions.yaxis"
+    ></apx-chart>
+
+    <div class="row text-center m-t-20">
+      <div class="col-md-4">
+        <h2 class="m-b-8 f-s-30 f-w-500">5098</h2>
+        <span class="f-s-14">Total Sent</span>
+      </div>
+      <div class="col-md-4">
+        <h2 class="m-b-8 f-s-30 f-w-500">4156</h2>
+        <span class="f-s-14">Mail Open Rate</span>
+      </div>
+      <div class="col-md-4">
+        <h2 class="m-b-8 f-s-30 f-w-500">1369</h2>
+        <span class="f-s-14">Click Rate</span>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

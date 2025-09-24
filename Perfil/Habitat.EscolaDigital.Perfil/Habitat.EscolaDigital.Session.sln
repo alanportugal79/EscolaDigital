@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.EscolaDigital.Session.Application", "Habitat.EscolaDigital.Session.Application\Habitat.EscolaDigital.Session.Application.csproj", "{E39C5A13-5192-4F5E-B408-6C7AA14C54BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA} = {2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.EscolaDigital.Session.Domain", "Habitat.EscolaDigital.Session.Domain\Habitat.EscolaDigital.Session.Domain.csproj", "{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F87619AB-9ED8-41A1-9210-A6557414F7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.EscolaDigital.Session.Persistence", "Habitat.EscolaDigital.Session.Persistence\Habitat.EscolaDigital.Session.Persistence.csproj", "{7C90D0C7-3626-4DB9-8147-67543EC56FB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3A46C445-8359-464F-AFE2-2FBC7EB4566C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitat.EscolaDigital.Session.WebApi", "Habitat.EscolaDigital.Session.WebApi\Habitat.EscolaDigital.Session.WebApi.csproj", "{2D1480D0-95BD-4C20-B20F-009523296323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39C5A13-5192-4F5E-B408-6C7AA14C54BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39C5A13-5192-4F5E-B408-6C7AA14C54BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39C5A13-5192-4F5E-B408-6C7AA14C54BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39C5A13-5192-4F5E-B408-6C7AA14C54BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C90D0C7-3626-4DB9-8147-67543EC56FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C90D0C7-3626-4DB9-8147-67543EC56FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C90D0C7-3626-4DB9-8147-67543EC56FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C90D0C7-3626-4DB9-8147-67543EC56FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1480D0-95BD-4C20-B20F-009523296323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1480D0-95BD-4C20-B20F-009523296323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1480D0-95BD-4C20-B20F-009523296323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1480D0-95BD-4C20-B20F-009523296323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E39C5A13-5192-4F5E-B408-6C7AA14C54BE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2D310ECA-8AE2-4127-BBCD-D7DCC1EB26BA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7C90D0C7-3626-4DB9-8147-67543EC56FB9} = {F87619AB-9ED8-41A1-9210-A6557414F7C3}
+		{2D1480D0-95BD-4C20-B20F-009523296323} = {3A46C445-8359-464F-AFE2-2FBC7EB4566C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E61E007D-48C1-4F43-9129-D48DD55F5577}
+	EndGlobalSection
+EndGlobal

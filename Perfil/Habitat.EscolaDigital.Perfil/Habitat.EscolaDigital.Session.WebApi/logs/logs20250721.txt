@@ -1,0 +1,663 @@
+21/07/2025 18:19:42 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 18:19:43 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 18:19:43 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 18:19:43 [Information] Hosting environment: "Development"
+21/07/2025 18:19:43 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 18:19:47 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+21/07/2025 18:19:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 200 0 null 1459.872ms
+21/07/2025 18:19:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/favicon.ico""" - null null
+21/07/2025 18:19:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/favicon.ico""" - 404 0 null 58.4682ms
+21/07/2025 18:19:48 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/favicon.ico", Response status code: 404
+21/07/2025 18:20:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 18:20:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 18:20:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 5.3079ms
+21/07/2025 18:20:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.1693ms
+21/07/2025 18:20:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+21/07/2025 18:20:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 132.4915ms
+21/07/2025 18:20:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+21/07/2025 18:20:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 110.292ms
+21/07/2025 18:20:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 18:20:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 18:20:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 47.1108ms
+21/07/2025 18:20:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 74.7344ms
+21/07/2025 18:20:54 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+21/07/2025 18:20:54 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+21/07/2025 18:20:54 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+21/07/2025 18:20:54 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+21/07/2025 18:20:58 [Information] Executed DbCommand ("85"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+21/07/2025 18:20:58 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+21/07/2025 18:20:58 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 3321.2432ms
+21/07/2025 18:20:58 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+21/07/2025 18:20:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 3450.7081ms
+21/07/2025 18:29:57 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 18:29:57 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 18:29:57 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 18:29:57 [Information] Hosting environment: "Development"
+21/07/2025 18:29:57 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 18:30:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+21/07/2025 18:30:00 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+21/07/2025 18:30:00 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+21/07/2025 18:30:00 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+21/07/2025 18:30:02 [Information] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+21/07/2025 18:30:02 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+21/07/2025 18:30:02 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 1645.0765ms
+21/07/2025 18:30:02 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+21/07/2025 18:30:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 1830.1144ms
+21/07/2025 18:30:03 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+21/07/2025 18:30:04 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 140.0497ms
+21/07/2025 18:30:04 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 18:30:04 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 18:30:04 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.7335ms
+21/07/2025 18:30:04 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 31.3198ms
+21/07/2025 18:30:04 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+21/07/2025 18:30:04 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 110.3224ms
+21/07/2025 18:31:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 18:31:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 18:31:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 3.6764ms
+21/07/2025 18:31:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 60.8624ms
+21/07/2025 18:31:09 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 18:31:09 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 18:31:09 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 8.1554ms
+21/07/2025 18:31:09 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 15.3409ms
+21/07/2025 18:31:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 18:31:14 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 18:31:14 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 21:31:14 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 18:31:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 275.0963ms
+21/07/2025 19:08:35 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:08:36 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:08:36 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:08:36 [Information] Hosting environment: "Development"
+21/07/2025 19:08:36 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:10:30 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+21/07/2025 19:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 358.0763ms
+21/07/2025 19:10:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:10:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.5909ms
+21/07/2025 19:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 68.989ms
+21/07/2025 19:10:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+21/07/2025 19:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 110.666ms
+21/07/2025 19:10:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+21/07/2025 19:10:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 24.9789ms
+21/07/2025 19:10:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:10:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:10:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 3.7553ms
+21/07/2025 19:10:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 29.518ms
+21/07/2025 19:10:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:10:55 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:10:55 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:10:55 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:10:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 73.1705ms
+21/07/2025 19:13:10 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:13:10 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:13:10 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:13:10 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:13:10 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 43.516ms
+21/07/2025 19:13:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:13:12 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:13:12 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:13:14 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:13:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 23.8176ms
+21/07/2025 19:13:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:13:12 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:13:12 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:13:14 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:13:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 14.1498ms
+21/07/2025 19:13:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:13:12 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:13:12 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:13:14 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:13:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 14.2914ms
+21/07/2025 19:13:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:13:13 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:13:13 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:13:14 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:13:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 14.9238ms
+21/07/2025 19:16:54 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:16:54 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:16:54 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:16:54 [Information] Hosting environment: "Development"
+21/07/2025 19:16:54 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:16:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+21/07/2025 19:16:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 282.3278ms
+21/07/2025 19:16:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:16:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:16:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 47.5322ms
+21/07/2025 19:16:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 33.3167ms
+21/07/2025 19:16:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+21/07/2025 19:16:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 119.763ms
+21/07/2025 19:17:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:17:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:17:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.7246ms
+21/07/2025 19:17:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 30.2435ms
+21/07/2025 19:17:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:17:07 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:17:07 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:17:07 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:17:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 76.0258ms
+21/07/2025 19:18:34 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:18:34 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:18:34 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:18:34 [Information] Hosting environment: "Development"
+21/07/2025 19:18:34 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:18:37 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:18:37 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:18:37 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: 'http://localhost:8080/.well-known/openid-configuration'. Will retry at '21/07/2025 22:18:37 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'http://localhost:8080/.well-known/openid-configuration'. HttpResponseMessage: 'StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Content-Length: 58
+  Content-Type: application/json
+}', HttpResponseMessage.Content: '{"error":"Unable to find matching target resource method"}'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: 'http://localhost:8080/.well-known/openid-configuration'. HttpResponseMessage: 'StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Content-Length: 58
+  Content-Type: application/json
+}', HttpResponseMessage.Content: '{"error":"Unable to find matching target resource method"}'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:18:37 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 287.778ms
+21/07/2025 19:21:32 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:21:33 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:21:33 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:21:33 [Information] Hosting environment: "Development"
+21/07/2025 19:21:33 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:21:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:21:44 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:21:44 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:21:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 588.7674ms
+21/07/2025 19:21:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:21:59 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:21:59 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:21:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 17.8212ms
+21/07/2025 19:22:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+21/07/2025 19:22:01 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 89.9047ms
+21/07/2025 19:22:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:22:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:22:01 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.2001ms
+21/07/2025 19:22:01 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.3393ms
+21/07/2025 19:22:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+21/07/2025 19:22:01 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 141.0929ms
+21/07/2025 19:22:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:22:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:22:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 3.9237ms
+21/07/2025 19:22:09 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 47.2296ms
+21/07/2025 19:22:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:22:14 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:22:14 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:22:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 12.6558ms
+21/07/2025 19:25:48 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:25:48 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:25:48 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:25:48 [Information] Hosting environment: "Development"
+21/07/2025 19:25:48 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:26:20 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:26:20 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:26:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:26:21 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:26:21 [Information] Hosting environment: "Development"
+21/07/2025 19:26:21 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:26:21 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:26:21 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:26:21 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 549.7319ms
+21/07/2025 19:28:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:28:06 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:28:06 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:28:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 40.4959ms
+21/07/2025 19:28:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:28:08 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:28:08 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:28:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 11.53ms
+21/07/2025 19:28:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:28:08 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:28:08 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:28:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 15.5117ms
+21/07/2025 19:28:09 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:28:09 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:28:09 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:28:09 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 8.6645ms
+21/07/2025 19:29:06 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:29:06 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:29:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:29:06 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:29:06 [Information] Hosting environment: "Development"
+21/07/2025 19:29:06 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:29:06 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:29:07 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:29:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 499.7886ms
+21/07/2025 19:29:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:29:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:29:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.5897ms
+21/07/2025 19:29:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 74.7321ms
+21/07/2025 19:29:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:29:25 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:29:25 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:29:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 25.3184ms
+21/07/2025 19:29:26 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:29:26 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:29:26 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:29:26 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 14.5944ms
+21/07/2025 19:29:27 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:29:27 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:29:27 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:29:27 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 11.6471ms
+21/07/2025 19:29:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:29:28 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:29:28 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:29:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 13.4307ms
+21/07/2025 19:31:49 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:31:49 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:31:49 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:31:49 [Information] Hosting environment: "Development"
+21/07/2025 19:31:49 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:31:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:31:55 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:31:55 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:31:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 396.7261ms
+21/07/2025 19:33:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+21/07/2025 19:33:20 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+21/07/2025 19:33:20 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+21/07/2025 19:33:20 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+21/07/2025 19:33:22 [Information] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+21/07/2025 19:33:22 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+21/07/2025 19:33:22 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 1696.5745ms
+21/07/2025 19:33:22 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+21/07/2025 19:33:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 1851.436ms
+21/07/2025 19:35:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:35:17 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:35:17 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:35:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 35.854ms
+21/07/2025 19:35:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:35:18 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:35:18 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:35:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 14.7779ms
+21/07/2025 19:35:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:35:18 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:35:18 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:35:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 13.2322ms
+21/07/2025 19:35:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:35:19 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:35:19 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:35:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 18.0988ms
+21/07/2025 19:39:07 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:39:07 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:39:07 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:39:07 [Information] Hosting environment: "Development"
+21/07/2025 19:39:07 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:39:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:39:18 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:39:18 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:39:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 313.4033ms
+21/07/2025 19:40:48 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:40:48 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:40:48 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:40:48 [Information] Hosting environment: "Development"
+21/07/2025 19:40:48 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:41:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:41:14 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectPostConfigureOptions.PostConfigure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:41:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 172.1158ms
+21/07/2025 19:41:36 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 19:41:36 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 19:41:36 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 19:41:36 [Information] Hosting environment: "Development"
+21/07/2025 19:41:36 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 19:41:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:41:37 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:41:37 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:41:37 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 343.8997ms
+21/07/2025 19:43:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:43:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:43:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 38.726ms
+21/07/2025 19:43:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 131.6242ms
+21/07/2025 19:43:46 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:43:46 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:43:46 [Error] Message contains error: '"unauthorized_client"', error_description: '"Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client."', error_uri: '"error_uri is null"', status code '401'.
+21/07/2025 19:43:46 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client.', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.GetPushedAuthorizationRequestUri(HttpResponseMessage parResponseMessage)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.PushAuthorizationRequest(OpenIdConnectMessage authorizeRequest, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:43:46 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 104.9765ms
+21/07/2025 19:44:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:44:29 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:44:29 [Error] Message contains error: '"unauthorized_client"', error_description: '"Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client."', error_uri: '"error_uri is null"', status code '401'.
+21/07/2025 19:44:29 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client.', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.GetPushedAuthorizationRequestUri(HttpResponseMessage parResponseMessage)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.PushAuthorizationRequest(OpenIdConnectMessage authorizeRequest, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:44:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 37.8573ms
+21/07/2025 19:46:46 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:46:46 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:46:46 [Error] Message contains error: '"unauthorized_client"', error_description: '"Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client."', error_uri: '"error_uri is null"', status code '401'.
+21/07/2025 19:46:46 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client.', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.GetPushedAuthorizationRequestUri(HttpResponseMessage parResponseMessage)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.PushAuthorizationRequest(OpenIdConnectMessage authorizeRequest, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:46:46 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 563.643ms
+21/07/2025 19:47:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:47:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:47:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 41.2878ms
+21/07/2025 19:47:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 78.9675ms
+21/07/2025 19:47:24 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:47:24 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:47:24 [Error] Message contains error: '"unauthorized_client"', error_description: '"Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client."', error_uri: '"error_uri is null"', status code '401'.
+21/07/2025 19:47:24 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client.', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.GetPushedAuthorizationRequestUri(HttpResponseMessage parResponseMessage)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.PushAuthorizationRequest(OpenIdConnectMessage authorizeRequest, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:47:24 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 20.7201ms
+21/07/2025 19:47:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:47:25 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:47:25 [Error] Message contains error: '"unauthorized_client"', error_description: '"Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client."', error_uri: '"error_uri is null"', status code '401'.
+21/07/2025 19:47:25 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client.', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.GetPushedAuthorizationRequestUri(HttpResponseMessage parResponseMessage)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.PushAuthorizationRequest(OpenIdConnectMessage authorizeRequest, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+21/07/2025 19:47:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 40.1654ms
+21/07/2025 19:47:39 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+21/07/2025 19:47:39 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+21/07/2025 19:47:39 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+21/07/2025 19:47:39 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 27.0163ms
+21/07/2025 19:49:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 19:49:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 19:49:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 27.8575ms
+21/07/2025 19:49:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 60.8855ms
+21/07/2025 21:47:05 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+21/07/2025 21:47:06 [Information] Now listening on: "http://localhost:5093"
+21/07/2025 21:47:06 [Information] Application started. Press Ctrl+C to shut down.
+21/07/2025 21:47:06 [Information] Hosting environment: "Development"
+21/07/2025 21:47:06 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+21/07/2025 21:47:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+21/07/2025 21:47:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 200.6062ms
+21/07/2025 21:47:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 21:47:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 21:47:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 13.4481ms
+21/07/2025 21:47:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 44.3478ms
+21/07/2025 21:47:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+21/07/2025 21:47:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 123.9914ms
+21/07/2025 21:47:26 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+21/07/2025 21:47:26 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+21/07/2025 21:47:26 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 9.8309ms
+21/07/2025 21:47:26 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.6012ms

@@ -1,0 +1,58 @@
+<mat-card class="cardWithShadow">
+  <div
+    class="p-y-8 p-x-30 b-b-1 d-flex align-items-center justify-content-between"
+  >
+    <mat-card-title>Monthly Winner</mat-card-title>
+    <div>
+      <button
+        class="d-flex align-items-center justify-content-center"
+        mat-icon-button
+        [matMenuTriggerFor]="beforeMenu"
+      >
+        <i-tabler name="dots" class="icon-24 text-body d-flex"></i-tabler>
+      </button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+        <button mat-menu-item>Item 3</button>
+      </mat-menu>
+    </div>
+  </div>
+  <div class="p-8">
+    <img
+      class="card-img-top w-100 profile-bg-height rounded overflow-hidden"
+      src="assets/images/backgrounds/profile-bg.jpg"
+      height="111"
+      alt="Card image cap"
+    />
+    <div class="little-profile text-center p-20">
+      <div class="pro-img">
+        <img
+          src="assets/images/profile/user-2.jpg"
+          alt="user"
+          class="rounded-circle shadow-sm"
+          width="112"
+        />
+      </div>
+      <mat-card-title class="f-s-24 m-b-4">Angela Dominic</mat-card-title>
+      <mat-card-subtitle class="m-b-16"
+        >Web Designer &amp; Developer</mat-card-subtitle
+      >
+      <button mat-flat-button class="m-b-24">Follow</button>
+      <div class="row text-center p-t-20 justify-content-center b-t-1">
+        <div class="col-4">
+          <h2 class="m-b-8 m-t-0 f-s-24 f-w-500">1099</h2>
+          <span class=" f-s-14">Articles</span>
+        </div>
+        <div class="col-4">
+          <h2 class="m-b-8 m-t-0 f-s-24 f-w-500">23,469</h2>
+          <span class=" f-s-14">Followers</span>
+        </div>
+        <div class="col-4">
+          <h2 class="m-b-8 m-t-0 f-s-24 f-w-500">6035</h2>
+          <span class=" f-s-14">Following</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-card>

@@ -1,0 +1,30 @@
+24/09/2025 18:10:23 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/09/2025 18:10:24 [Information] Now listening on: "http://localhost:5093"
+24/09/2025 18:10:24 [Information] Application started. Press Ctrl+C to shut down.
+24/09/2025 18:10:24 [Information] Hosting environment: "Development"
+24/09/2025 18:10:24 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/09/2025 18:11:01 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+24/09/2025 18:11:03 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 1489.0262ms
+24/09/2025 18:11:03 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger""" - null null
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger""" - 301 0 null 19.3479ms
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 99.9952ms
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - null null
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.css""" - null null
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - null null
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - null null
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui.css""" - null null
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 9.1591ms
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 4.9721ms
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.css""" - 200 202 "text/css" 80.6065ms
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - 200 229223 "text/javascript" 77.6115ms
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui.css""" - 200 155175 "text/css" 72.1897ms
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - 200 1485750 "text/javascript" 82.5651ms
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 80.7609ms
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+24/09/2025 18:11:08 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - null null
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - 200 628 "image/png" 7.7824ms
+24/09/2025 18:11:08 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 105.2469ms

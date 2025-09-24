@@ -1,0 +1,28 @@
+<div class="d-flex align-items-center justify-content-between m-b-16 p-r-16">
+  <h2 mat-dialog-title>Watch Video</h2>
+  <button
+    mat-icon-button
+    mat-dialog-close
+    class="d-flex justify-content-center"
+  >
+    <i-tabler name="x" class="icon-20 d-flex"></i-tabler>
+  </button>
+</div>
+
+<mat-dialog-content class="mat-typography">
+  <iframe
+    width="450"
+    height="315"
+    src="https://www.youtube.com/embed/UpiNERmgBwQ?si=AjBcbCG_9dZecb9U"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-flat-button class="bg-error text-white" mat-dialog-close>
+    Cancel
+  </button>
+</mat-dialog-actions>

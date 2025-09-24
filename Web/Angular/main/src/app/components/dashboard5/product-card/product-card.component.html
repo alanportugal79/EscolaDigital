@@ -1,0 +1,18 @@
+<div class="row">
+  @for(productcard of productcard; track productcard.title) {
+  <div class="col-lg-3 col-sm-6">
+    <mat-card class="cardWithShadow">
+      <mat-card-content>
+        <mat-card-title class="f-s-24 f-w-500 m-b-8">
+          {{ productcard.title }}
+        </mat-card-title>
+        <mat-card-subtitle class="f-s-14 f-w-400 m-t-0 m-b-10">
+          {{ productcard.subtitle }}
+        </mat-card-subtitle>
+        <mat-progress-bar mode="determinate" class="{{ productcard.color }}"
+          value="{{productcard.value}}"></mat-progress-bar>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  }
+</div>

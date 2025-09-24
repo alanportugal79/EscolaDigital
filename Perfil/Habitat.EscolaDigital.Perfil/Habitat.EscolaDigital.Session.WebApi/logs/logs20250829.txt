@@ -1,0 +1,14 @@
+29/08/2025 19:10:01 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+29/08/2025 19:10:01 [Information] Now listening on: "http://localhost:5093"
+29/08/2025 19:10:01 [Information] Application started. Press Ctrl+C to shut down.
+29/08/2025 19:10:01 [Information] Hosting environment: "Development"
+29/08/2025 19:10:01 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+29/08/2025 19:20:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+29/08/2025 19:20:00 [Information] Sending file. Request path: '"/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\ProfilePhoto\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+29/08/2025 19:20:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 21216 "image/jpeg" 135.1006ms
+29/08/2025 19:57:46 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+29/08/2025 19:57:46 [Information] Sending file. Request path: '"/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\ProfilePhoto\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+29/08/2025 19:57:46 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 21216 "image/jpeg" 63.582ms
+29/08/2025 21:02:58 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+29/08/2025 21:02:58 [Information] Sending file. Request path: '"/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\ProfilePhoto\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+29/08/2025 21:02:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 21216 "image/jpeg" 291.766ms

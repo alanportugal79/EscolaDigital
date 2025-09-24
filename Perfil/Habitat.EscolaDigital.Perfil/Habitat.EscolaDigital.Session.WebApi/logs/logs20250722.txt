@@ -1,0 +1,662 @@
+22/07/2025 20:11:13 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:11:13 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:11:13 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:11:13 [Information] Hosting environment: "Development"
+22/07/2025 20:11:13 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:11:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+22/07/2025 20:11:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 1285.7696ms
+22/07/2025 20:11:51 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+22/07/2025 20:11:56 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - null null
+22/07/2025 20:11:56 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - null null
+22/07/2025 20:11:56 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - null null
+22/07/2025 20:11:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 65.0017ms
+22/07/2025 20:11:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - 200 229223 "text/javascript" 74.4561ms
+22/07/2025 20:11:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - 200 1485750 "text/javascript" 82.9488ms
+22/07/2025 20:11:56 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:11:56 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:11:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 11.2743ms
+22/07/2025 20:11:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 48.819ms
+22/07/2025 20:11:56 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 20:11:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 96.9311ms
+22/07/2025 20:15:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjE0OjU1IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=b9a61df0-0e51-4cdd-8351-fa14bf1789ef.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 20:15:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjE0OjU1IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=b9a61df0-0e51-4cdd-8351-fa14bf1789ef.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 42.7894ms
+22/07/2025 20:15:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:15:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:15:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 15.8528ms
+22/07/2025 20:15:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 98.5947ms
+22/07/2025 20:15:07 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5093""""/Swagger/index.html""" - "application/x-www-form-urlencoded" 286
+22/07/2025 20:15:07 [Information] CORS policy execution successful.
+22/07/2025 20:15:07 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5093""""/Swagger/index.html""" - 404 0 null 16.2114ms
+22/07/2025 20:15:07 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5093""""/Swagger/index.html", Response status code: 404
+22/07/2025 20:15:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjE1OjMxIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=e91b3ba5-112b-4752-ac75-d0fc3ed490df.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 20:15:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjE1OjMxIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=e91b3ba5-112b-4752-ac75-d0fc3ed490df.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 108.1899ms
+22/07/2025 20:15:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:15:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:15:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.5581ms
+22/07/2025 20:15:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 27.6128ms
+22/07/2025 20:15:31 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5093""""/Swagger/index.html""" - "application/x-www-form-urlencoded" 286
+22/07/2025 20:15:31 [Information] CORS policy execution successful.
+22/07/2025 20:15:31 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5093""""/Swagger/index.html""" - 404 0 null 16.4541ms
+22/07/2025 20:15:31 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5093""""/Swagger/index.html", Response status code: 404
+22/07/2025 20:17:41 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:17:41 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:17:41 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:17:41 [Information] Hosting environment: "Development"
+22/07/2025 20:17:41 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:18:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 20:18:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 195.9608ms
+22/07/2025 20:18:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:18:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:18:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 17.506ms
+22/07/2025 20:18:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 35.3525ms
+22/07/2025 20:18:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 20:18:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - null null
+22/07/2025 20:18:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - 200 628 "image/png" 66.3806ms
+22/07/2025 20:18:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 151.146ms
+22/07/2025 20:18:35 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:18:36 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:18:36 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:18:36 [Information] Hosting environment: "Development"
+22/07/2025 20:18:36 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:18:40 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 20:18:41 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 202.6393ms
+22/07/2025 20:18:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:18:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:18:41 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 14.7322ms
+22/07/2025 20:18:41 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 46.7878ms
+22/07/2025 20:18:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 20:18:41 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 119.9144ms
+22/07/2025 20:18:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjE4OjQ3IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=01cf4e38-3d02-4cb1-b0f2-4f792633159d.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 20:18:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjE4OjQ3IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=01cf4e38-3d02-4cb1-b0f2-4f792633159d.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 22.8209ms
+22/07/2025 20:18:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:18:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:18:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 8.4071ms
+22/07/2025 20:18:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 20.4698ms
+22/07/2025 20:18:48 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5093""""/Swagger/index.html""" - "application/x-www-form-urlencoded" 286
+22/07/2025 20:18:48 [Information] CORS policy execution successful.
+22/07/2025 20:18:48 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5093""""/Swagger/index.html""" - 404 0 null 104.8232ms
+22/07/2025 20:18:48 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "http"://"localhost:5093""""/Swagger/index.html", Response status code: 404
+22/07/2025 20:19:49 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:19:50 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:19:50 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:19:50 [Information] Hosting environment: "Development"
+22/07/2025 20:19:50 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:19:58 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 20:19:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 196.1372ms
+22/07/2025 20:19:58 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:19:58 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:19:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.1201ms
+22/07/2025 20:19:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 31.01ms
+22/07/2025 20:19:58 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 20:19:58 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 104.3241ms
+22/07/2025 20:20:09 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjIwOjA5IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=f5ed2093-1386-46e9-b91e-76583c307cac.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 20:20:09 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjIwOjA5IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=f5ed2093-1386-46e9-b91e-76583c307cac.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 23.2178ms
+22/07/2025 20:20:10 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:20:10 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:20:10 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 13.1338ms
+22/07/2025 20:20:10 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 44.5419ms
+22/07/2025 20:20:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:20:23 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:20:23 [Error] Message contains error: '"unauthorized_client"', error_description: '"Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client."', error_uri: '"error_uri is null"', status code '401'.
+22/07/2025 20:20:23 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectProtocolException: Message contains error: 'unauthorized_client', error_description: 'Client is not allowed to initiate browser login with given response_type. Implicit flow is disabled for the client.', error_uri: 'error_uri is null'.
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.GetPushedAuthorizationRequestUri(HttpResponseMessage parResponseMessage)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.PushAuthorizationRequest(OpenIdConnectMessage authorizeRequest, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+22/07/2025 20:20:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 500 null "application/json" 372.5587ms
+22/07/2025 20:21:24 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:21:24 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:21:24 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:21:24 [Information] Hosting environment: "Development"
+22/07/2025 20:21:24 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:21:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:21:31 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:21:32 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:21:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 296.6553ms
+22/07/2025 20:23:08 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:23:08 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:23:09 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:23:09 [Information] Hosting environment: "Development"
+22/07/2025 20:23:09 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:23:10 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:10 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:10 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:10 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 318.3731ms
+22/07/2025 20:23:11 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:11 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:11 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:11 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 18.1536ms
+22/07/2025 20:23:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:12 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:12 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:12 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 27.4352ms
+22/07/2025 20:23:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:13 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:13 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 14.8523ms
+22/07/2025 20:23:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:13 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:13 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 13.9352ms
+22/07/2025 20:23:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:14 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:14 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 14.9464ms
+22/07/2025 20:23:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:14 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:14 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 12.9169ms
+22/07/2025 20:23:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:23:15 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:23:15 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:23:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 13.7654ms
+22/07/2025 20:26:09 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:26:10 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:26:10 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:26:10 [Information] Hosting environment: "Development"
+22/07/2025 20:26:10 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:26:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:26:14 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:26:14 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:26:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 289.8272ms
+22/07/2025 20:26:16 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:26:16 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:26:16 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:26:16 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 22.561ms
+22/07/2025 20:26:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:26:17 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:26:17 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:26:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 15.3591ms
+22/07/2025 20:26:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:26:18 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:26:18 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:26:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 35.4398ms
+22/07/2025 20:28:00 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:28:00 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:28:00 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:28:00 [Information] Hosting environment: "Development"
+22/07/2025 20:28:00 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:28:10 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:10 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:10 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:10 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 285.7867ms
+22/07/2025 20:28:30 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:30 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:30 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:30 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 22.9628ms
+22/07/2025 20:28:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:33 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:33 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 19.6559ms
+22/07/2025 20:28:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:33 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:33 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 13.4781ms
+22/07/2025 20:28:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:34 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:34 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 11.9289ms
+22/07/2025 20:28:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:34 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:34 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 13.2866ms
+22/07/2025 20:28:35 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:35 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:35 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:35 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 10.5178ms
+22/07/2025 20:28:35 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:35 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:35 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:35 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 15.9795ms
+22/07/2025 20:28:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:36 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:36 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 16.8893ms
+22/07/2025 20:28:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:28:36 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:28:36 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 10.4485ms
+22/07/2025 20:28:42 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:28:42 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:28:42 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:28:42 [Information] Hosting environment: "Development"
+22/07/2025 20:28:42 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:29:08 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:29:09 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:29:09 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:29:09 [Information] Hosting environment: "Development"
+22/07/2025 20:29:09 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:29:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:29:32 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:29:33 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:29:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 18826.0376ms
+22/07/2025 20:30:48 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:30:48 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:30:48 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:30:48 [Information] Hosting environment: "Development"
+22/07/2025 20:30:48 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:30:54 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:30:54 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:30:54 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:30:54 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 325.9322ms
+22/07/2025 20:33:10 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:33:10 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:33:11 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:33:11 [Information] Hosting environment: "Development"
+22/07/2025 20:33:11 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:33:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:33:22 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:33:23 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:33:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 294.0317ms
+22/07/2025 20:33:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:33:23 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:33:23 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:33:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 18.0599ms
+22/07/2025 20:33:24 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:33:24 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:33:24 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:33:24 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 12.9382ms
+22/07/2025 20:33:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:33:25 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:33:25 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:33:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 12.4369ms
+22/07/2025 20:34:16 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 20:34:17 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 20:34:17 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 20:34:17 [Information] Hosting environment: "Development"
+22/07/2025 20:34:17 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 20:34:30 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:34:30 [Warning] Failed to determine the https port for redirect.
+22/07/2025 20:34:30 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:34:30 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:34:30 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 299.2064ms
+22/07/2025 20:34:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 20:34:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 68.935ms
+22/07/2025 20:34:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:34:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:34:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 10.6639ms
+22/07/2025 20:34:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 38.3436ms
+22/07/2025 20:34:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 20:34:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 110.5646ms
+22/07/2025 20:34:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjM0OjQyIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=f4193304-46ca-4eb6-9f95-5116d36f9adb.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 20:34:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIwOjM0OjQyIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b8e91057-3043-40db-a062-4691835729ad&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=f4193304-46ca-4eb6-9f95-5116d36f9adb.b8e91057-3043-40db-a062-4691835729ad.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 13.5233ms
+22/07/2025 20:34:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 20:34:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 20:34:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 4.7511ms
+22/07/2025 20:34:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 56.9595ms
+22/07/2025 20:34:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 20:34:49 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:34:49 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:34:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 16.014ms
+22/07/2025 20:38:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - "application/json" 104
+22/07/2025 20:38:22 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 20:38:22 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 20:38:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 302 0 null 75.7981ms
+22/07/2025 21:18:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+22/07/2025 21:18:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 23.866ms
+22/07/2025 21:18:33 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+22/07/2025 21:19:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIxOjE5OjI1IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=afec923a-793a-4526-ab5e-f7886b84bb17&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=e9d62b3a-859d-41e6-a363-77940a9e27e6.afec923a-793a-4526-ab5e-f7886b84bb17.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 21:19:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIxOjE5OjI1IEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=afec923a-793a-4526-ab5e-f7886b84bb17&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=e9d62b3a-859d-41e6-a363-77940a9e27e6.afec923a-793a-4526-ab5e-f7886b84bb17.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 17.032ms
+22/07/2025 21:19:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 21:19:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 21:19:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.8699ms
+22/07/2025 21:19:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 21.6841ms
+22/07/2025 21:27:16 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 21:27:17 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 21:27:17 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 21:27:17 [Information] Hosting environment: "Development"
+22/07/2025 21:27:17 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 21:27:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 21:27:25 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 21:27:25 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 21:27:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 401 0 null 303.5987ms
+22/07/2025 21:28:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - null null
+22/07/2025 21:28:15 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 21:28:32 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 21:28:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/GetCurrentUser/current-user""" - 401 0 null 17208.759ms
+22/07/2025 21:31:45 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 21:31:45 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 21:31:45 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 21:31:45 [Information] Hosting environment: "Development"
+22/07/2025 21:31:45 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 21:31:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 21:31:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 204.7385ms
+22/07/2025 21:31:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 21:31:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 21:31:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 16.0717ms
+22/07/2025 21:31:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 35.5068ms
+22/07/2025 21:31:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+22/07/2025 21:31:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 124.5203ms
+22/07/2025 21:31:52 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+22/07/2025 21:31:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 21:31:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 120.3888ms
+22/07/2025 21:32:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 21:32:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 21:32:00 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 21:32:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 302 0 null 114.319ms
+22/07/2025 21:37:07 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 21:37:07 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 21:37:07 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 21:37:07 [Information] Hosting environment: "Development"
+22/07/2025 21:37:08 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 21:37:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 21:37:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 287.361ms
+22/07/2025 21:37:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 21:37:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 21:37:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.6407ms
+22/07/2025 21:37:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+22/07/2025 21:37:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 190.5108ms
+22/07/2025 21:37:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 153.9943ms
+22/07/2025 21:37:23 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+22/07/2025 21:37:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 21:37:23 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 77.3522ms
+22/07/2025 21:45:56 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 21:45:56 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 21:45:56 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 21:45:56 [Information] Hosting environment: "Development"
+22/07/2025 21:45:56 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 21:46:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 21:46:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 237.9654ms
+22/07/2025 21:46:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 21:46:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 21:46:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+22/07/2025 21:46:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 44.9589ms
+22/07/2025 21:46:03 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 133.7921ms
+22/07/2025 21:46:03 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 146.0018ms
+22/07/2025 21:46:03 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+22/07/2025 21:46:03 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 21:46:03 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 73.8593ms
+22/07/2025 21:46:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIxOjQ2OjIyIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=afec923a-793a-4526-ab5e-f7886b84bb17&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=f2a93e81-b833-4089-80f8-09d4d4e63a26.afec923a-793a-4526-ab5e-f7886b84bb17.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 21:46:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIxOjQ2OjIyIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=afec923a-793a-4526-ab5e-f7886b84bb17&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=f2a93e81-b833-4089-80f8-09d4d4e63a26.afec923a-793a-4526-ab5e-f7886b84bb17.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 16.0225ms
+22/07/2025 21:46:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 21:46:22 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 21:46:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.9657ms
+22/07/2025 21:46:22 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 22.2628ms
+22/07/2025 21:46:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 21:46:34 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 21:46:34 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 21:46:34 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 302 0 null 102.1831ms
+22/07/2025 21:47:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIxOjQ3OjEwIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b93ff0c2-01f9-4c6e-b42f-39c5d03b2fce&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=29c48101-8d92-4fe8-bc22-804613d9a4f5.b93ff0c2-01f9-4c6e-b42f-39c5d03b2fce.772e318e-0934-4ebd-a27f-c54d275fc3f9" - null null
+22/07/2025 21:47:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""?state=VHVlIEp1bCAyMiAyMDI1IDIxOjQ3OjEwIEdNVC0wMzAwIChIb3LDoXJpbyBQYWRyw6NvIGRlIEJyYXPDrWxpYSk%3D&session_state=b93ff0c2-01f9-4c6e-b42f-39c5d03b2fce&iss=http%3A%2F%2Flocalhost%3A8080%2Frealms%2FEscolaDigital&code=29c48101-8d92-4fe8-bc22-804613d9a4f5.b93ff0c2-01f9-4c6e-b42f-39c5d03b2fce.772e318e-0934-4ebd-a27f-c54d275fc3f9" - 200 null "text/html" 86.7599ms
+22/07/2025 21:47:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 21:47:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 21:47:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 22.256ms
+22/07/2025 21:47:19 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 13.9438ms
+22/07/2025 21:47:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 21:47:25 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 21:47:25 [Information] AuthenticationScheme: "OpenIdConnect" was challenged.
+22/07/2025 21:47:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 302 0 null 19.5506ms
+22/07/2025 22:16:21 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:16:21 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:16:21 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:16:21 [Information] Hosting environment: "Development"
+22/07/2025 22:16:21 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:16:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+22/07/2025 22:16:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 224.7653ms
+22/07/2025 22:16:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 22:16:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 22:16:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.4552ms
+22/07/2025 22:16:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.7403ms
+22/07/2025 22:16:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+22/07/2025 22:16:29 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+22/07/2025 22:16:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/.well-known/appspecific/com.chrome.devtools.json""" - 500 null "application/json" 114.2549ms
+22/07/2025 22:16:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+22/07/2025 22:16:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 82.6614ms
+22/07/2025 22:16:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 22:16:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 22:16:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 9.5585ms
+22/07/2025 22:16:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.1562ms
+22/07/2025 22:17:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+22/07/2025 22:17:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 16.9483ms
+22/07/2025 22:17:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 22:17:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 22:17:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 81.4468ms
+22/07/2025 22:17:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 79.7814ms
+22/07/2025 22:17:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:17:50 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+22/07/2025 22:17:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 500 null "application/json" 40.8144ms
+22/07/2025 22:18:35 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:18:35 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:18:35 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:18:35 [Information] Hosting environment: "Development"
+22/07/2025 22:18:35 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:18:46 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:18:47 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 22:18:47 [Information] "Bearer" was not authenticated. Failure message: "IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null."
+22/07/2025 22:18:47 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 22:18:47 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 22:18:47 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 427.2427ms
+22/07/2025 22:20:34 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:20:34 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:20:34 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:20:34 [Information] Hosting environment: "Development"
+22/07/2025 22:20:34 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:20:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:20:41 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'account'. Did not match: validationParameters.ValidAudience: 'web' or validationParameters.ValidAudiences: 'null'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 22:20:41 [Information] "Bearer" was not authenticated. Failure message: "IDX10214: Audience validation failed. Audiences: 'account'. Did not match: validationParameters.ValidAudience: 'web' or validationParameters.ValidAudiences: 'null'."
+22/07/2025 22:20:41 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 22:20:41 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 22:20:41 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 356.4525ms
+22/07/2025 22:21:09 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:21:10 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:21:10 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:21:10 [Information] Hosting environment: "Development"
+22/07/2025 22:21:10 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:21:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:21:13 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 22:21:13 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+22/07/2025 22:21:13 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+22/07/2025 22:21:13 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.WebApi.Models.UserProfileModel"'.
+22/07/2025 22:21:13 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 36.9929ms
+22/07/2025 22:21:13 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 22:21:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 433.4888ms
+22/07/2025 22:25:31 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:25:31 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:25:31 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:25:31 [Information] Hosting environment: "Development"
+22/07/2025 22:25:31 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:25:46 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:25:46 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'account'. Did not match: validationParameters.ValidAudience: 'none' or validationParameters.ValidAudiences: 'null'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 22:25:46 [Information] "Bearer" was not authenticated. Failure message: "IDX10214: Audience validation failed. Audiences: 'account'. Did not match: validationParameters.ValidAudience: 'none' or validationParameters.ValidAudiences: 'null'."
+22/07/2025 22:25:46 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 22:25:46 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 22:25:46 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 385.3942ms
+22/07/2025 22:31:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 22:31:33 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 22:31:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 8.4797ms
+22/07/2025 22:31:33 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 82.9172ms
+22/07/2025 22:31:37 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:31:37 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'session_api, account'. Did not match: validationParameters.ValidAudience: 'none' or validationParameters.ValidAudiences: 'null'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 22:31:37 [Information] "Bearer" was not authenticated. Failure message: "IDX10214: Audience validation failed. Audiences: 'session_api, account'. Did not match: validationParameters.ValidAudience: 'none' or validationParameters.ValidAudiences: 'null'."
+22/07/2025 22:31:37 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 22:31:37 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 22:31:37 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 17.7942ms
+22/07/2025 22:32:33 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:32:33 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:32:33 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:32:33 [Information] Hosting environment: "Development"
+22/07/2025 22:32:33 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:32:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:32:44 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'session_api, account'. Did not match: validationParameters.ValidAudience: 'session_api,account' or validationParameters.ValidAudiences: 'null'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 22:32:44 [Information] "Bearer" was not authenticated. Failure message: "IDX10214: Audience validation failed. Audiences: 'session_api, account'. Did not match: validationParameters.ValidAudience: 'session_api,account' or validationParameters.ValidAudiences: 'null'."
+22/07/2025 22:32:44 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 22:32:44 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 22:32:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 351.3328ms
+22/07/2025 22:33:26 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:33:26 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:33:26 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:33:26 [Information] Hosting environment: "Development"
+22/07/2025 22:33:26 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:33:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:33:29 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 22:33:29 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+22/07/2025 22:33:29 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+22/07/2025 22:33:29 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.WebApi.Models.UserProfileModel"'.
+22/07/2025 22:33:29 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 28.1135ms
+22/07/2025 22:33:29 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 22:33:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 412.3928ms
+22/07/2025 22:34:09 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+22/07/2025 22:34:09 [Information] Now listening on: "http://localhost:5093"
+22/07/2025 22:34:09 [Information] Application started. Press Ctrl+C to shut down.
+22/07/2025 22:34:09 [Information] Hosting environment: "Development"
+22/07/2025 22:34:09 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+22/07/2025 22:34:12 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 22:34:12 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 22:34:12 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+22/07/2025 22:34:12 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+22/07/2025 22:34:12 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.WebApi.Models.UserProfileModel"'.
+22/07/2025 22:34:13 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 35.2779ms
+22/07/2025 22:34:13 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 22:34:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 400.6236ms
+22/07/2025 23:10:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 23:10:15 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '23/07/2025 01:46:33', Current time (UTC): '23/07/2025 02:10:15'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 23:10:15 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '23/07/2025 01:46:33', Current time (UTC): '23/07/2025 02:10:15'."
+22/07/2025 23:10:15 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 23:10:15 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 23:10:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 37.0202ms
+22/07/2025 23:10:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 23:10:17 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '23/07/2025 01:46:33', Current time (UTC): '23/07/2025 02:10:17'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+22/07/2025 23:10:17 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '23/07/2025 01:46:33', Current time (UTC): '23/07/2025 02:10:17'."
+22/07/2025 23:10:17 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+22/07/2025 23:10:17 [Information] AuthenticationScheme: "Bearer" was challenged.
+22/07/2025 23:10:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 18.102ms
+22/07/2025 23:10:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+22/07/2025 23:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 20.0925ms
+22/07/2025 23:10:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+22/07/2025 23:10:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+22/07/2025 23:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 8.1786ms
+22/07/2025 23:10:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 73.1026ms
+22/07/2025 23:10:35 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+22/07/2025 23:10:35 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 23:10:35 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+22/07/2025 23:11:40 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.WebApi.Models.UserProfileModel"'.
+22/07/2025 23:11:40 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 64447.9096ms
+22/07/2025 23:11:40 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 23:11:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 64468.4032ms
+22/07/2025 23:11:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/menu""" - null null
+22/07/2025 23:11:51 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 23:11:51 [Information] Route matched with "{action = \"GetMenu\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+22/07/2025 23:11:54 [Information] Executed DbCommand ("198"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+22/07/2025 23:11:55 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+22/07/2025 23:11:55 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)" in 3760.3068ms
+22/07/2025 23:11:55 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)"'
+22/07/2025 23:11:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/menu""" - 200 null "application/json; charset=utf-8" 3798.4346ms

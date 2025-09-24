@@ -1,0 +1,28 @@
+<div class="d-flex">
+  <div
+    class="user-profile profile-bar w-100"
+    style="background: url(assets/images/backgrounds/user-info.jpg) no-repeat"
+  >
+    <!-- User profile image -->
+    <div class="profile-img">
+      <img
+        [src]="profilePhotoUrl()"
+        alt="user"
+        width="50"
+        class="rounded-circle"
+      />
+    </div>
+    <!-- User profile text-->
+    <!-- ============================================================== -->
+    <!-- Profile - style you can find in header.scss -->
+    <!-- ============================================================== -->
+    <div class="profile-text p-t-4">
+      <a
+        href="javascript:void(0)"        
+        class="text-decoration-none d-flex align-items-center text-white w-100 f-s-16"
+      >
+        {{fullName}}        
+      </a>
+    </div>
+  </div>
+</div>

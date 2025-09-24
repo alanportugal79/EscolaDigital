@@ -1,0 +1,146 @@
+19/07/YYYY 20:47:SS [Information] Now listening on: "http://localhost:5093"
+19/07/YYYY 20:47:SS [Information] Application started. Press Ctrl+C to shut down.
+19/07/YYYY 20:47:SS [Information] Hosting environment: "Development"
+19/07/YYYY 20:47:SS [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 20:49:SS [Information] Now listening on: "http://localhost:5093"
+19/07/2025 20:49:SS [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 20:49:SS [Information] Hosting environment: "Development"
+19/07/2025 20:49:SS [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 20:50:03 [Information] Now listening on: "http://localhost:5093"
+19/07/2025 20:50:03 [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 20:50:03 [Information] Hosting environment: "Development"
+19/07/2025 20:50:03 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 20:59:42 [Information] Now listening on: "http://localhost:5093"
+19/07/2025 20:59:43 [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 20:59:43 [Information] Hosting environment: "Development"
+19/07/2025 20:59:43 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 21:00:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+19/07/2025 21:00:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 162.4078ms
+19/07/2025 21:00:06 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+19/07/2025 21:00:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+19/07/2025 21:00:14 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:00:14 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+19/07/2025 21:00:14 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+19/07/2025 21:00:25 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 11559.0832ms
+19/07/2025 21:00:25 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:00:25 [Error] An unhandled exception has occurred while executing the request.
+Habitat.EscolaDigital.Session.Application.Common.Exceptions.BadRequestException: teste de exceção
+   at Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemHandler.Handle(GetForMenuNavItemRequest request, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Features\NavItemFeatures\GetForMenu\GetForMenuNavItemHandler.cs:line 21
+   at Habitat.EscolaDigital.Session.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Common\Behaviors\ValidationBehavior.cs:line 18
+   at Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu(CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\Controllers\NavItemController.cs:line 20
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+19/07/2025 21:00:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 500 null "text/plain; charset=utf-8" 11694.0637ms
+19/07/2025 21:01:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+19/07/2025 21:01:15 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:01:15 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+19/07/2025 21:01:18 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 3334.5723ms
+19/07/2025 21:01:18 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:01:18 [Error] An unhandled exception has occurred while executing the request.
+Habitat.EscolaDigital.Session.Application.Common.Exceptions.BadRequestException: teste de exceção
+   at Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemHandler.Handle(GetForMenuNavItemRequest request, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Features\NavItemFeatures\GetForMenu\GetForMenuNavItemHandler.cs:line 21
+   at Habitat.EscolaDigital.Session.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Common\Behaviors\ValidationBehavior.cs:line 18
+   at Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu(CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\Controllers\NavItemController.cs:line 20
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+19/07/2025 21:01:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 500 null "text/plain; charset=utf-8" 3411.5822ms
+19/07/2025 21:02:23 [Information] Now listening on: "http://localhost:5093"
+19/07/2025 21:02:23 [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 21:02:23 [Information] Hosting environment: "Development"
+19/07/2025 21:02:23 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 21:02:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+19/07/2025 21:02:25 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:02:25 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+19/07/2025 21:02:25 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+19/07/2025 21:02:28 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 2647.9387ms
+19/07/2025 21:02:28 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:02:28 [Error] An unhandled exception has occurred while executing the request.
+Habitat.EscolaDigital.Session.Application.Common.Exceptions.BadRequestException: teste de exceção
+   at Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemHandler.Handle(GetForMenuNavItemRequest request, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Features\NavItemFeatures\GetForMenu\GetForMenuNavItemHandler.cs:line 21
+   at Habitat.EscolaDigital.Session.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Common\Behaviors\ValidationBehavior.cs:line 18
+   at Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu(CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\Controllers\NavItemController.cs:line 20
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+19/07/2025 21:02:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 400 null "application/json" 4263.7513ms
+19/07/2025 21:08:57 [Information] Now listening on: "http://localhost:5093"
+19/07/2025 21:08:57 [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 21:08:57 [Information] Hosting environment: "Development"
+19/07/2025 21:08:57 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 21:19:24 [Information] Now listening on: "http://localhost:5093"
+19/07/2025 21:19:24 [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 21:19:24 [Information] Hosting environment: "Development"
+19/07/2025 21:19:24 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 21:19:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+19/07/2025 21:19:29 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:19:29 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+19/07/2025 21:19:29 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+19/07/2025 21:19:31 [Information] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+19/07/2025 21:19:31 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.SuccessResult`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+19/07/2025 21:19:31 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 1816.7643ms
+19/07/2025 21:19:31 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:19:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 1932.9367ms
+19/07/2025 21:25:28 [Information] Now listening on: "http://localhost:5093"
+19/07/2025 21:25:28 [Information] Application started. Press Ctrl+C to shut down.
+19/07/2025 21:25:28 [Information] Hosting environment: "Development"
+19/07/2025 21:25:28 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+19/07/2025 21:25:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+19/07/2025 21:25:41 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:25:41 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+19/07/2025 21:25:41 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+19/07/2025 21:25:43 [Information] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+19/07/2025 21:25:43 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+19/07/2025 21:25:43 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 1586.7274ms
+19/07/2025 21:25:43 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+19/07/2025 21:25:43 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 1692.2471ms

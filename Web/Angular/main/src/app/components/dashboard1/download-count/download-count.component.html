@@ -1,0 +1,25 @@
+<mat-card class="card overflow-hidden shadow-none bg-secondary">
+  <mat-card-content>
+    <div class="hstack gap-12 m-b-10">
+      <div class="bg-white icon-48 rounded-circle d-flex align-items-center justify-content-center">
+        <i-tabler name="chart-bar" class="icon-24 d-flex text-secondary"></i-tabler>
+      </div>
+      <div>
+        <mat-card-title class="text-white">Download count</mat-card-title>
+        <mat-card-subtitle class="text-white op-7">March 2025</mat-card-subtitle>
+      </div>
+    </div>
+    <div class="row align-items-end p-t-10">
+      <div class="col-5">
+        <h2 class="f-s-30 f-w-500 text-white">35,487</h2>
+      </div>
+      <div class="col-7">
+        <apx-chart [series]="downloadOptions.series" [chart]="downloadOptions.chart" [grid]="downloadOptions.grid"
+          [xaxis]="downloadOptions.xaxis" [yaxis]="downloadOptions.yaxis" [dataLabels]="downloadOptions.dataLabels"
+          [plotOptions]="downloadOptions.plotOptions" [tooltip]="downloadOptions.tooltip"
+          [colors]="downloadOptions.colors" [stroke]="downloadOptions.stroke" [fill]="downloadOptions.fill">
+        </apx-chart>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

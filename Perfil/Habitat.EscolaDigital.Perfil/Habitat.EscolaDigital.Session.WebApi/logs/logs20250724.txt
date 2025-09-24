@@ -1,0 +1,149 @@
+24/07/2025 18:16:02 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/07/2025 18:16:02 [Information] Now listening on: "http://localhost:5093"
+24/07/2025 18:16:02 [Information] Application started. Press Ctrl+C to shut down.
+24/07/2025 18:16:02 [Information] Hosting environment: "Development"
+24/07/2025 18:16:02 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/07/2025 18:16:07 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+24/07/2025 18:16:09 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 1461.2267ms
+24/07/2025 18:16:09 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+24/07/2025 18:16:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+24/07/2025 18:16:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+24/07/2025 18:16:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.4267ms
+24/07/2025 18:16:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 61.7323ms
+24/07/2025 18:16:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+24/07/2025 18:16:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 106.1173ms
+24/07/2025 18:16:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+24/07/2025 18:16:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 33.7298ms
+24/07/2025 18:16:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+24/07/2025 18:16:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+24/07/2025 18:16:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 5.5373ms
+24/07/2025 18:16:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 6.9279ms
+24/07/2025 18:16:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 18:16:41 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:16:41 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 18:16:41 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+24/07/2025 18:16:41 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 18:16:42 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 121.9969ms
+24/07/2025 18:16:42 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:16:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 634.9913ms
+24/07/2025 18:17:12 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/07/2025 18:17:12 [Information] Now listening on: "http://localhost:5093"
+24/07/2025 18:17:12 [Information] Application started. Press Ctrl+C to shut down.
+24/07/2025 18:17:12 [Information] Hosting environment: "Development"
+24/07/2025 18:17:12 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/07/2025 18:24:19 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 18:24:19 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:24:19 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 18:24:19 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+24/07/2025 18:24:20 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 18:24:20 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 119.6755ms
+24/07/2025 18:24:20 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:24:20 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 542.3528ms
+24/07/2025 18:24:43 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/07/2025 18:24:44 [Information] Now listening on: "http://localhost:5093"
+24/07/2025 18:24:44 [Information] Application started. Press Ctrl+C to shut down.
+24/07/2025 18:24:44 [Information] Hosting environment: "Development"
+24/07/2025 18:24:44 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/07/2025 18:25:25 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 18:25:25 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:25:25 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 18:25:25 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+24/07/2025 18:25:25 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 18:25:25 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 114.7075ms
+24/07/2025 18:25:25 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:25:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 502.4823ms
+24/07/2025 18:26:14 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/07/2025 18:26:14 [Information] Now listening on: "http://localhost:5093"
+24/07/2025 18:26:14 [Information] Application started. Press Ctrl+C to shut down.
+24/07/2025 18:26:14 [Information] Hosting environment: "Development"
+24/07/2025 18:26:14 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/07/2025 18:26:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 18:26:18 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:26:18 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 18:26:18 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+24/07/2025 18:26:18 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 18:26:18 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 115.1162ms
+24/07/2025 18:26:18 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:26:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 476.1392ms
+24/07/2025 18:27:40 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/07/2025 18:27:40 [Information] Now listening on: "http://localhost:5093"
+24/07/2025 18:27:40 [Information] Application started. Press Ctrl+C to shut down.
+24/07/2025 18:27:40 [Information] Hosting environment: "Development"
+24/07/2025 18:27:40 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/07/2025 18:27:45 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 18:27:46 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:27:46 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 18:27:46 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+24/07/2025 18:27:46 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 18:27:46 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 117.6645ms
+24/07/2025 18:27:46 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:27:46 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 541.0286ms
+24/07/2025 18:28:21 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/menu""" - null null
+24/07/2025 18:28:21 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:28:21 [Information] Route matched with "{action = \"GetMenu\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 18:28:24 [Warning] Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation '"NavItem.Roles"' is empty.
+24/07/2025 18:28:24 [Warning] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+24/07/2025 18:28:25 [Information] Executed DbCommand ("192"ms) [Parameters=["@__roles_0='?' (DbType = Object)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t1.id, t1.chip, t1.chip_class, t1.chip_content, t1.date_created, t1.date_deleted, t1.date_updated, t1.dd_type, t1.disabled, t1.display_name, t1.external, t1.icon_name, t1.id_guid, t1.id_parent, t1.id_user, t1.is_deleted, t1.last_modified_by, t1.nav_cap, t1.route, t1.sub_text, t1.two_lines, t2.id, t2.date_created, t2.date_deleted, t2.date_updated, t2.id_guid, t2.id_nav_item, t2.id_user, t2.is_deleted, t2.last_modified_by, t2.role_name
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t1 ON t.id = t1.id_parent
+LEFT JOIN session.tb_nav_item_role AS t2 ON t.id = t2.id_nav_item
+WHERE EXISTS (
+    SELECT 1
+    FROM session.tb_nav_item_role AS t0
+    WHERE t.id = t0.id_nav_item AND t0.role_name = ANY (@__roles_0))
+ORDER BY t.id, t1.id"
+24/07/2025 18:28:25 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[System.Collections.Generic.List`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+24/07/2025 18:28:25 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)" in 3983.3396ms
+24/07/2025 18:28:25 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 18:28:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/menu""" - 200 null "application/json; charset=utf-8" 4034.5504ms
+24/07/2025 18:59:33 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+24/07/2025 18:59:33 [Information] Now listening on: "http://localhost:5093"
+24/07/2025 18:59:33 [Information] Application started. Press Ctrl+C to shut down.
+24/07/2025 18:59:33 [Information] Hosting environment: "Development"
+24/07/2025 18:59:33 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+24/07/2025 18:59:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 18:59:49 [Information] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '24/07/2025 21:31:32', Current time (UTC): '24/07/2025 21:59:49'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+24/07/2025 18:59:49 [Information] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '24/07/2025 21:31:32', Current time (UTC): '24/07/2025 21:59:49'."
+24/07/2025 18:59:49 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+24/07/2025 18:59:49 [Information] AuthenticationScheme: "Bearer" was challenged.
+24/07/2025 18:59:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 401 0 null 381.7543ms
+24/07/2025 19:00:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+24/07/2025 19:00:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 17.3062ms
+24/07/2025 19:00:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+24/07/2025 19:00:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+24/07/2025 19:00:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.5289ms
+24/07/2025 19:00:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.2039ms
+24/07/2025 19:00:04 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+24/07/2025 19:00:04 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 19:00:04 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 19:00:04 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+24/07/2025 19:00:04 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 19:00:04 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 111.347ms
+24/07/2025 19:00:04 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 19:00:04 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 159.4405ms
+24/07/2025 19:00:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/menu""" - null null
+24/07/2025 19:00:14 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 19:00:14 [Information] Route matched with "{action = \"GetMenu\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+24/07/2025 19:00:15 [Warning] Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation '"NavItem.Roles"' is empty.
+24/07/2025 19:00:15 [Warning] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+24/07/2025 19:00:16 [Information] Executed DbCommand ("111"ms) [Parameters=["@__roles_0='?' (DbType = Object)"], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t1.id, t1.chip, t1.chip_class, t1.chip_content, t1.date_created, t1.date_deleted, t1.date_updated, t1.dd_type, t1.disabled, t1.display_name, t1.external, t1.icon_name, t1.id_guid, t1.id_parent, t1.id_user, t1.is_deleted, t1.last_modified_by, t1.nav_cap, t1.route, t1.sub_text, t1.two_lines, t2.id, t2.date_created, t2.date_deleted, t2.date_updated, t2.id_guid, t2.id_nav_item, t2.id_user, t2.is_deleted, t2.last_modified_by, t2.role_name
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t1 ON t.id = t1.id_parent
+LEFT JOIN session.tb_nav_item_role AS t2 ON t.id = t2.id_nav_item
+WHERE EXISTS (
+    SELECT 1
+    FROM session.tb_nav_item_role AS t0
+    WHERE t.id = t0.id_nav_item AND t0.role_name = ANY (@__roles_0))
+ORDER BY t.id, t1.id"
+24/07/2025 19:00:16 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+24/07/2025 19:00:16 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)" in 1682.457ms
+24/07/2025 19:00:16 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetMenu (Habitat.EscolaDigital.Session.WebApi)"'
+24/07/2025 19:00:16 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/menu""" - 200 null "application/json; charset=utf-8" 1714.2501ms

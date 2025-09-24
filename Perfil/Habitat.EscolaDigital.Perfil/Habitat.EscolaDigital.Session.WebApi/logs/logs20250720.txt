@@ -1,0 +1,283 @@
+20/07/2025 12:43:44 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 12:43:44 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 12:43:44 [Information] Hosting environment: "Development"
+20/07/2025 12:43:44 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 12:43:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+20/07/2025 12:43:50 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 229.201ms
+20/07/2025 12:43:50 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+20/07/2025 12:43:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 12:43:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 12:43:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 18.0266ms
+20/07/2025 12:43:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.4991ms
+20/07/2025 12:43:55 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+20/07/2025 12:43:55 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 122.7031ms
+20/07/2025 12:44:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+20/07/2025 12:44:00 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:44:00 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+20/07/2025 12:44:00 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+20/07/2025 12:44:02 [Error] An error occurred using the connection to database '"escola123"' on server '"tcp://localhost:5432"'.
+20/07/2025 12:44:02 [Error] An exception occurred while iterating over the results of a query for context type '"Habitat.EscolaDigital.Session.Persistence.Context.EscolaDigitalContext"'."
+""Npgsql.PostgresException (0x80004005): 3D000: banco de dados \"escola123\" n�o existe
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: banco de dados \"escola123\" n�o existe
+    File: postinit.c
+    Line: 1034
+    Routine: InitPostgres"
+Npgsql.PostgresException (0x80004005): 3D000: banco de dados "escola123" n�o existe
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: banco de dados "escola123" n�o existe
+    File: postinit.c
+    Line: 1034
+    Routine: InitPostgres
+20/07/2025 12:51:20 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 12:51:20 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 12:51:20 [Information] Hosting environment: "Development"
+20/07/2025 12:51:20 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 12:51:38 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+20/07/2025 12:51:38 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:51:38 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+20/07/2025 12:51:38 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+20/07/2025 12:51:40 [Information] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+20/07/2025 12:51:40 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+20/07/2025 12:51:40 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 1579.9971ms
+20/07/2025 12:51:40 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:51:40 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 1683.1634ms
+20/07/2025 12:53:24 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 12:53:24 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 12:53:24 [Information] Hosting environment: "Development"
+20/07/2025 12:53:24 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 12:53:34 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+20/07/2025 12:53:34 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:53:34 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+20/07/2025 12:53:34 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+20/07/2025 12:53:36 [Error] An error occurred using the connection to database '"escola132"' on server '"tcp://localhost:5432"'.
+20/07/2025 12:53:36 [Error] An exception occurred while iterating over the results of a query for context type '"Habitat.EscolaDigital.Session.Persistence.Context.EscolaDigitalContext"'."
+""Npgsql.PostgresException (0x80004005): 3D000: banco de dados \"escola132\" n�o existe
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: banco de dados \"escola132\" n�o existe
+    File: postinit.c
+    Line: 1034
+    Routine: InitPostgres"
+Npgsql.PostgresException (0x80004005): 3D000: banco de dados "escola132" n�o existe
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: banco de dados "escola132" n�o existe
+    File: postinit.c
+    Line: 1034
+    Routine: InitPostgres
+20/07/2025 12:53:39 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 4783.5727ms
+20/07/2025 12:53:39 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:53:39 [Error] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 3D000: banco de dados "escola132" n�o existe
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Habitat.EscolaDigital.Session.Persistence.Repository.NavItemRepository.NavItemRepository.GetForMenu(CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\Repository\NavItemRepository\NavItemRepository.cs:line 19
+   at Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemHandler.Handle(GetForMenuNavItemRequest request, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Features\NavItemFeatures\GetForMenu\GetForMenuNavItemHandler.cs:line 21
+   at Habitat.EscolaDigital.Session.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Application\Common\Behaviors\ValidationBehavior.cs:line 18
+   at Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu(CancellationToken cancellationToken) in F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\Controllers\NavItemController.cs:line 20
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+  Exception data:
+    Severity: FATAL
+    SqlState: 3D000
+    MessageText: banco de dados "escola132" n�o existe
+    File: postinit.c
+    Line: 1034
+    Routine: InitPostgres
+20/07/2025 12:53:39 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 500 null "application/json" 4960.935ms
+20/07/2025 12:54:03 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 12:54:03 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 12:54:03 [Information] Hosting environment: "Development"
+20/07/2025 12:54:03 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 12:54:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - null null
+20/07/2025 12:54:13 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:54:13 [Information] Route matched with "{action = \"GetForMenu\", controller = \"NavItem\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse]]] GetForMenu(System.Threading.CancellationToken)" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController" ("Habitat.EscolaDigital.Session.WebApi").
+20/07/2025 12:54:13 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+20/07/2025 12:54:14 [Information] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT t.id, t.chip, t.chip_class, t.chip_content, t.date_created, t.date_deleted, t.date_updated, t.dd_type, t.disabled, t.display_name, t.external, t.icon_name, t.id_guid, t.id_parent, t.id_user, t.is_deleted, t.last_modified_by, t.nav_cap, t.route, t.sub_text, t.two_lines, t0.id, t0.chip, t0.chip_class, t0.chip_content, t0.date_created, t0.date_deleted, t0.date_updated, t0.dd_type, t0.disabled, t0.display_name, t0.external, t0.icon_name, t0.id_guid, t0.id_parent, t0.id_user, t0.is_deleted, t0.last_modified_by, t0.nav_cap, t0.route, t0.sub_text, t0.two_lines
+FROM session.tb_nav_item AS t
+LEFT JOIN session.tb_nav_item AS t0 ON t.id = t0.id_parent
+ORDER BY t.id"
+20/07/2025 12:54:14 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result.Result`1[[Habitat.EscolaDigital.Session.Application.Features.NavItemFeatures.GetForMenu.GetForMenuNavItemResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+20/07/2025 12:54:14 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)" in 1528.2687ms
+20/07/2025 12:54:14 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.NavItemController.GetForMenu (Habitat.EscolaDigital.Session.WebApi)"'
+20/07/2025 12:54:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/NavItem/GetForMenu""" - 200 null "application/json; charset=utf-8" 1637.2616ms
+20/07/2025 18:40:31 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+20/07/2025 18:40:31 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 18:40:31 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 18:40:31 [Information] Hosting environment: "Development"
+20/07/2025 18:40:31 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 18:40:47 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+20/07/2025 18:41:41 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+20/07/2025 18:41:41 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 18:41:41 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 18:41:41 [Information] Hosting environment: "Development"
+20/07/2025 18:41:41 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 18:41:50 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+20/07/2025 18:41:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 566.7479ms
+20/07/2025 18:41:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:41:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:41:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 47.4862ms
+20/07/2025 18:41:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 78.0189ms
+20/07/2025 18:41:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+20/07/2025 18:41:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - null null
+20/07/2025 18:41:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - 200 628 "image/png" 241.0612ms
+20/07/2025 18:41:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 277.7271ms
+20/07/2025 18:44:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+20/07/2025 18:44:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 200 null "text/html" 49.7206ms
+20/07/2025 18:44:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:44:02 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:44:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 82.7436ms
+20/07/2025 18:44:02 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 127.102ms
+20/07/2025 18:44:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+20/07/2025 18:44:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 61.2709ms
+20/07/2025 18:44:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:44:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:44:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 3.9524ms
+20/07/2025 18:44:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 91.7434ms
+20/07/2025 18:44:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+20/07/2025 18:44:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.5654ms
+20/07/2025 18:44:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:44:36 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:44:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 9.4687ms
+20/07/2025 18:44:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 18.1497ms
+20/07/2025 18:44:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+20/07/2025 18:44:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 6.1943ms
+20/07/2025 18:44:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:44:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:44:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 23.6783ms
+20/07/2025 18:44:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 25.1451ms
+20/07/2025 18:44:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+20/07/2025 18:44:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 7.1547ms
+20/07/2025 18:44:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:44:49 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:44:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 7.0634ms
+20/07/2025 18:44:49 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 27.3119ms
+20/07/2025 18:46:54 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+20/07/2025 18:46:54 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 18:46:54 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 18:46:54 [Information] Hosting environment: "Development"
+20/07/2025 18:46:54 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 18:47:05 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+20/07/2025 18:47:05 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 277.8592ms
+20/07/2025 18:47:05 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:47:05 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:47:05 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 10.7313ms
+20/07/2025 18:47:05 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.0303ms
+20/07/2025 18:47:05 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+20/07/2025 18:47:05 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 111.8714ms
+20/07/2025 18:47:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:47:17 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:47:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 10.9796ms
+20/07/2025 18:47:17 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 20.6154ms
+20/07/2025 18:48:12 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+20/07/2025 18:48:13 [Information] Now listening on: "http://localhost:5093"
+20/07/2025 18:48:13 [Information] Application started. Press Ctrl+C to shut down.
+20/07/2025 18:48:13 [Information] Hosting environment: "Development"
+20/07/2025 18:48:13 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+20/07/2025 18:48:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+20/07/2025 18:48:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 384.7344ms
+20/07/2025 18:48:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:48:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:48:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 5.9056ms
+20/07/2025 18:48:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 49.3305ms
+20/07/2025 18:48:18 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - null null
+20/07/2025 18:48:18 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 134.3569ms
+20/07/2025 18:49:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+20/07/2025 18:49:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+20/07/2025 18:49:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 17.0231ms
+20/07/2025 18:49:31 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 74.2535ms

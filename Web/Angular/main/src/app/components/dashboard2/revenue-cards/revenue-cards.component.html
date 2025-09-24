@@ -1,0 +1,27 @@
+<div class="row">
+  @for(topcard of topcards; track topcard.title) {
+  <div class="col-lg-3 col-sm-6">
+    <mat-card class="cardWithShadow text-center">
+      <div class="p-20">
+        <div class="d-flex align-items-center gap-20">
+          <span
+            class="icon-56 bg-{{
+              topcard.color
+            }} text-white rounded-circle d-flex align-items-center justify-content-center"
+          >
+            <i-tabler name="{{ topcard.icon }}" class="icon-22"></i-tabler>
+          </span>
+          <div class="text-left">
+            <mat-card-title class="f-s-20 f-w-500">
+              {{ topcard.title }}
+            </mat-card-title>
+            <mat-card-subtitle class="f-s-15 f-w-400">
+              {{ topcard.subtitle }}
+            </mat-card-subtitle>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+  }
+</div>

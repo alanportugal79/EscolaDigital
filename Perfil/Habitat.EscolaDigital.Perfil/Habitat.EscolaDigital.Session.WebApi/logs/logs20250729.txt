@@ -1,0 +1,58 @@
+29/07/2025 15:23:43 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+29/07/2025 15:23:44 [Information] Now listening on: "http://localhost:5093"
+29/07/2025 15:23:44 [Information] Application started. Press Ctrl+C to shut down.
+29/07/2025 15:23:44 [Information] Hosting environment: "Development"
+29/07/2025 15:23:44 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+29/07/2025 15:23:54 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+29/07/2025 15:23:56 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 1826.677ms
+29/07/2025 15:23:56 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger""" - null null
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger""" - 301 0 null 31.5432ms
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 92.5832ms
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui.css""" - null null
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.css""" - null null
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - null null
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.css""" - 200 202 "text/css" 25.6098ms
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - null null
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui.css""" - 200 155175 "text/css" 78.1922ms
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - 200 229223 "text/javascript" 16.1636ms
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - null null
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 3.2644ms
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+29/07/2025 15:23:59 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+29/07/2025 15:23:59 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - 200 1485750 "text/javascript" 129.6989ms
+29/07/2025 15:24:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 154.3323ms
+29/07/2025 15:24:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 211.7234ms
+29/07/2025 15:24:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+29/07/2025 15:24:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - null null
+29/07/2025 15:24:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/favicon-32x32.png""" - 200 628 "image/png" 33.8072ms
+29/07/2025 15:24:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 136.4475ms
+29/07/2025 15:25:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+29/07/2025 15:25:20 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 200 null "text/html" 10.3576ms
+29/07/2025 15:25:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+29/07/2025 15:25:20 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+29/07/2025 15:25:20 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 3.5865ms
+29/07/2025 15:25:20 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 29.5189ms
+29/07/2025 15:26:04 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+29/07/2025 15:26:04 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+29/07/2025 15:26:04 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 5.6313ms
+29/07/2025 15:26:05 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 120.7935ms
+29/07/2025 15:26:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - null null
+29/07/2025 15:26:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/oauth2-redirect.html""" - 304 null null 60.1691ms
+29/07/2025 15:26:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+29/07/2025 15:26:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 5.5056ms
+29/07/2025 15:26:42 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+29/07/2025 15:26:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 5.8128ms
+29/07/2025 15:28:27 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+29/07/2025 15:28:27 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+29/07/2025 15:28:27 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 9.7343ms
+29/07/2025 15:28:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 60.0517ms
+29/07/2025 15:28:35 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - null null
+29/07/2025 15:28:36 [Information] Executing endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+29/07/2025 15:28:36 [Information] Route matched with "{action = \"GetCurrentUser\", controller = \"Session\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCurrentUser()" on controller "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController" ("Habitat.EscolaDigital.Session.WebApi").
+29/07/2025 15:28:36 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+29/07/2025 15:28:36 [Information] Executing "OkObjectResult", writing value of type '"Habitat.EscolaDigital.Session.Application.Common.Models.Result`1[[Habitat.EscolaDigital.Session.Application.Features.UserProfileFeatures.Get.GetUserProfileResponse, Habitat.EscolaDigital.Session.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+29/07/2025 15:28:36 [Information] Executed action "Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)" in 212.9652ms
+29/07/2025 15:28:36 [Information] Executed endpoint '"Habitat.EscolaDigital.Session.WebApi.Controllers.SessionController.GetCurrentUser (Habitat.EscolaDigital.Session.WebApi)"'
+29/07/2025 15:28:36 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/current-user""" - 200 null "application/json; charset=utf-8" 752.138ms

@@ -1,0 +1,92 @@
+<mat-card class="cardWithShadow">
+  <div class="row">
+    <div class="col-lg-6">
+      <mat-card-content class="p-30">
+        <mat-card-title class="m-b-16">Reviews</mat-card-title>
+        <p class="f-s-40 lh-lg m-b-6">31,560</p>
+        <p class="m-b-16 f-s-15">April the product got 234 reviews</p>
+
+        <div class="hstack flex-row gap-12 align-items-center m-b-24">
+          <a href="javascript:void(0)">
+            <img
+              width="50"
+              height="50"
+              class="rounded-circle"
+              src="/assets/images/profile/user-2.jpg"
+            />
+          </a>
+          <a href="javascript:void(0)">
+            <img
+              width="50"
+              height="50"
+              class="rounded-circle"
+              src="/assets/images/profile/user-3.jpg"
+            />
+          </a>
+          <a href="javascript:void(0)">
+            <img
+              width="50"
+              height="50"
+              class="rounded-circle"
+              src="/assets/images/profile/user-4.jpg"
+            />
+          </a>
+          <a href="javascript:void(0)">
+            <img
+              width="50"
+              height="50"
+              class="rounded-circle"
+              src="/assets/images/profile/user-5.jpg"
+            />
+          </a>
+        </div>
+
+        <button mat-flat-button>Read reviews</button>
+      </mat-card-content>
+    </div>
+    <div class="col-lg-6">
+      <div class="d-flex flex-col gap-16 p-30">
+        <div class="p-y-16 w-100">
+          <div class="d-flex align-items-center gap-8 m-b-4">
+            <i-tabler name="mood-smile-beam" class="icon-48 d-flex"></i-tabler>
+            <div>
+              <h6 class="f-s-18 f-w-500">Positive Reviews</h6>
+              <span class="f-s-14">25,547 Reviews</span>
+            </div>
+          </div>
+          <mat-progress-bar
+            mode="determinate"
+            class="mat-secondary"
+            value="65"
+          ></mat-progress-bar>
+        </div>
+        <!-- 2 -->
+        <div class="p-y-16 w-100">
+          <div class="d-flex align-items-center gap-8 m-b-4">
+            <i-tabler name="mood-sad" class="icon-48 d-flex"></i-tabler>
+            <div>
+              <h6 class="f-s-18 f-w-500">Negative Reviews</h6>
+              <span class="f-s-14">5,478 Reviews</span>
+            </div>
+          </div>
+          <mat-progress-bar
+            mode="determinate"
+            class="mat-error"
+            value="65"
+          ></mat-progress-bar>
+        </div>
+        <!-- 3 -->
+        <div class="p-y-16 w-100">
+          <div class="d-flex align-items-center gap-8 m-b-4">
+            <i-tabler name="mood-empty" class="icon-48 d-flex"></i-tabler>
+            <div>
+              <h6 class="f-s-18 f-w-500">Neutral Reviews</h6>
+              <span class="f-s-14">457 Reviews</span>
+            </div>
+          </div>
+          <mat-progress-bar mode="determinate" value="65"></mat-progress-bar>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-card>

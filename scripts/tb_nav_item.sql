@@ -1,0 +1,25 @@
+CREATE TABLE "session".tb_nav_item (
+	id bigserial NOT NULL,
+	id_guid uuid NOT NULL,
+	display_name varchar(50) NOT NULL,
+	disabled bool DEFAULT false NOT NULL,
+	"external" bool DEFAULT false NOT NULL,
+	two_lines bool DEFAULT false NOT NULL,
+	chip bool DEFAULT false NOT NULL,
+	icon_name varchar(50) NULL,
+	nav_cap varchar(30) NULL,
+	chip_content varchar(100) NULL,
+	chip_class varchar(100) NULL,
+	sub_text varchar(50) NULL,
+	route varchar(255) NULL,
+	id_parent bigint NULL,
+	dd_type varchar(50) NULL,
+	last_modified_by uuid NULL,
+	date_created timestamp without time zone DEFAULT current_timestamp NOT NULL,
+	date_updated timestamp without time zone NULL,
+	date_deleted timestamp without time zone NULL,
+	id_user uuid NOT NULL,
+	is_deleted bool DEFAULT false NOT NULL,
+	CONSTRAINT tb_nav_item_pk PRIMARY KEY (id)
+);
+CREATE INDEX tb_nav_item_id_guid_idx ON "session".tb_nav_item (id_guid);

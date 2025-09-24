@@ -1,0 +1,48 @@
+<mat-card class="cardWithShadow">
+  <mat-card-content>
+    <div class="d-flex align-items-start justify-content-between">
+      <mat-card-title>Visit source</mat-card-title>
+
+      <mat-form-field class="theme-select" appearance="outline">
+        <mat-select value="mar">
+          @for(month of months; track month.value) {
+          <mat-option [value]="month.value">
+            {{ month.viewValue }}
+          </mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div id="visitor-chart" class="d-flex flex-col justify-content-center m-auto">
+      <apx-chart
+        [series]="visitsourceChart.series"
+        [chart]="visitsourceChart.chart"
+        [labels]="visitsourceChart.labels"
+        [responsive]="visitsourceChart.responsive"
+        [tooltip]="visitsourceChart.tooltip"
+        [legend]="visitsourceChart.legend"
+        [colors]="visitsourceChart.colors"
+        [dataLabels]="visitsourceChart.dataLabels"
+        [plotOptions]="visitsourceChart.plotOptions"
+        [stroke]="visitsourceChart.stroke"
+        [responsive]="visitsourceChart.responsive"
+      >
+      </apx-chart>
+    </div>
+
+    <div class="hstack flex-row gap-30 align-items-center justify-content-center">
+      <div class="hstack flex-row gap-4 text-primary">
+        <i-tabler name="circle-filled" class="icon-12"></i-tabler>
+        <span class="f-s-14">Desktop</span>
+      </div>
+      <div class="hstack flex-row gap-4 text-secondary">
+        <i-tabler name="circle-filled" class="icon-12"></i-tabler>
+        <span class="f-s-14">Tablet</span>
+      </div>
+      <div class="hstack flex-row gap-4 text-error">
+        <i-tabler name="circle-filled" class="icon-12"></i-tabler>
+        <span class="f-s-14">Mobile</span>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,375 @@
+<mat-card class="cardWithShadow">
+  <mat-card-content>
+    <mat-card-title>Profile Activitiy</mat-card-title>
+    <mat-card-subtitle>Ample Admin Vs Pixel Admin</mat-card-subtitle>
+    <mat-tab-group animationDuration="0ms" class="profile-tabs">
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div class="d-flex align-items-center gap-12 flex-col">
+            <i-tabler name="user-circle" class="icon-24 d-flex"></i-tabler>
+            Profile
+          </div>
+        </ng-template>
+        <mat-card-content>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 b-r-1">
+              <h5 class="f-w-600 f-s-15">Full Name</h5>
+              <p class="f-s-15 m-b-16">Johnathan Deo</p>
+            </div>
+            <div class="col-sm-6 col-lg-3 b-r-1">
+              <h5 class="f-w-600 f-s-15">Mobile</h5>
+              <p class="f-s-15 m-b-16">(123) 456 7890</p>
+            </div>
+            <div class="col-sm-6 col-lg-3 b-r-1">
+              <h5 class="f-w-600 f-s-15">Email</h5>
+              <p class="f-s-15 m-b-16">john&#64;admin.com</p>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <h5 class="f-w-600 f-s-15">Location</h5>
+              <p class="f-s-15 m-b-16">London</p>
+            </div>
+          </div>
+
+          <p class="f-s-15 m-y-15 b-t-1 p-t-15">
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras
+            dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+            tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+            ac, enim.
+          </p>
+          <p class="f-s-15 m-b-16">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries
+          </p>
+
+          <h5 class="f-w-500 f-s-18 m-t-24 b-b-1 p-b-16">Skill Set</h5>
+          <div class="d-flex flex-col gap-4 m-t-16">
+            <div class="d-flex justify-content-between m-b-4">
+              <span class="f-s-16 f-w-500">Wordpress</span>
+              <span class="f-s-16 f-w-500">80%</span>
+            </div>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </div>
+          <div class="d-flex flex-col gap-4 m-t-16">
+            <div class="d-flex justify-content-between m-b-4">
+              <span class="f-s-16 f-w-500">HTML 5</span>
+              <span class="f-s-16 f-w-500">90%</span>
+            </div>
+            <mat-progress-bar
+              mode="determinate"
+              class="mat-secondary"
+              value="90"
+            ></mat-progress-bar>
+          </div>
+          <div class="d-flex flex-col gap-4 m-t-16">
+            <div class="d-flex justify-content-between m-b-4">
+              <span class="f-s-16 f-w-500">jQuery</span>
+              <span class="f-s-16 f-w-500">50%</span>
+            </div>
+            <mat-progress-bar
+              mode="determinate"
+              class="mat-warning"
+              value="50"
+            ></mat-progress-bar>
+          </div>
+          <div class="d-flex flex-col gap-4 m-t-16">
+            <div class="d-flex justify-content-between m-b-4">
+              <span class="f-s-16 f-w-500">Photoshop</span>
+              <span class="f-s-16 f-w-500">70%</span>
+            </div>
+            <mat-progress-bar
+              mode="determinate"
+              class="mat-error"
+              value="70"
+            ></mat-progress-bar>
+          </div>
+        </mat-card-content>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div class="d-flex align-items-center gap-12 flex-col">
+            <i-tabler name="activity" class="icon-24 d-flex"></i-tabler>
+            Activity
+          </div>
+        </ng-template>
+        <mat-card-content>
+          <div class="profiletimeline position-relative">
+            <div class="sl-item m-t-8 m-b-16">
+              <div class="sl-left float-left m-r-24">
+                <img
+                  src="assets/images/profile/user-1.jpg"
+                  width="56"
+                  height="56"
+                  alt="user"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="sl-right w-100">
+                <div>
+                  <div
+                    class="d-sm-flex align-items-center justify-content-between gap-12 m-b-4"
+                  >
+                    <div class="hstack align-items-center gap-12">
+                      <h3 class="f-s-16 f-w-500">John Doe</h3>
+                      <div class="sl-date f-s-12">5 minutes ago</div>
+                    </div>
+                    <i-tabler name="dots" class="icon-24 d-flex"></i-tabler>
+                  </div>
+
+                  <p class="m-t-0 m-b-12 f-s-15">
+                    assign a new task
+                    <a href="" class="text-primary text-decoration-none">
+                      Design web layout</a
+                    >
+                  </p>
+                  <div class="row mt-3">
+                    <div class="col-sm-6 col-lg-3 m-b-8">
+                      <img
+                        src="assets/images/blog/blog-img1.jpg"
+                        width="100%"
+                        height="80"
+                        alt="user"
+                        class="rounded"
+                      />
+                    </div>
+                    <div class="col-sm-6 col-lg-3 m-b-8">
+                      <img
+                        src="assets/images/blog/blog-img2.jpg"
+                        width="100%"
+                        height="80"
+                        alt="user"
+                        class="rounded"
+                      />
+                    </div>
+                    <div class="col-sm-6 col-lg-3 m-b-8">
+                      <img
+                        src="assets/images/blog/blog-img3.jpg"
+                        width="100%"
+                        height="80"
+                        alt="user"
+                        class="rounded"
+                      />
+                    </div>
+                    <div class="col-sm-6 col-lg-3 m-b-8">
+                      <img
+                        src="assets/images/blog/blog-img4.jpg"
+                        width="100%"
+                        height="80"
+                        alt="user"
+                        class="rounded"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl-item m-y-24 p-t-16">
+              <div class="sl-left float-left mr-24">
+                <img
+                  src="assets/images/profile/user-2.jpg"
+                  width="56"
+                  height="56"
+                  alt="user"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="sl-right w-100">
+                <div>
+                  <div
+                    class="d-sm-flex align-items-center justify-content-between gap-12 m-b-12"
+                  >
+                    <div class="hstack align-items-center gap-12">
+                      <h3 class="f-s-16 f-w-500">Canry Smith</h3>
+                      <div class="sl-date f-s-12">5 minutes ago</div>
+                    </div>
+                    <i-tabler name="dots" class="icon-24 d-flex"></i-tabler>
+                  </div>
+                  <div class="bg-light-primary p-20 rounded">
+                    <p class="m-0 f-s-14">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer nec odio. Praesent libero. Sed cursus ante dapibus
+                      diam. Sed nisi. Nulla quis sem at nibh elementum
+                      imperdiet. Duis sagittis ipsum. Praesent mauris.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sl-item m-t-24 p-t-16">
+              <div class="sl-left float-left mr-24">
+                <img
+                  src="assets/images/profile/user-2.jpg"
+                  width="56"
+                  height="56"
+                  alt="user"
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="sl-right w-100">
+                <div>
+                  <div
+                    class="d-sm-flex align-items-center justify-content-between gap-12 m-b-12"
+                  >
+                    <div class="hstack align-items-center gap-12">
+                      <h3 class="f-s-16 f-w-500">James Smith</h3>
+                      <div class="sl-date f-s-12">5 minutes ago</div>
+                    </div>
+                    <i-tabler name="dots" class="icon-24 d-flex"></i-tabler>
+                  </div>
+                  <div class="row m-b-20">
+                    <div class="col-lg-5">
+                      <div
+                        class="d-flex align-items-center rounded b-1 p-y-20 p-x-30 gap-16"
+                      >
+                        <img
+                          src="assets/images/svgs/icon-zip.svg"
+                          alt=""
+                          class="flex-shrink-0"
+                        />
+                        <div>
+                          <h3 class="f-s-15 f-w-500 m-b-2">Payments.zip</h3>
+                          <p class="m-0 f-s-14">150kb</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div
+                        class="d-flex align-items-center rounded b-1 p-y-20 p-x-30 gap-16"
+                      >
+                        <img
+                          src="assets/images/svgs/icon-figma2.svg"
+                          alt=""
+                          class="flex-shrink-0"
+                        />
+                        <div>
+                          <h3 class="f-s-15 f-w-500 m-b-2">Figma.zip</h3>
+                          <p class="m-0 f-s-14">150kb</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-light-primary rounded f-w-500 h-100 f-s-18 "
+                      >
+                        +2
+                      </div>
+                    </div>
+                  </div>
+                  <p class="f-s-15 m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer nec odio. Praesent libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div class="d-flex align-items-center gap-12 flex-col">
+            <i-tabler name="mail" class="icon-24 d-flex"></i-tabler>
+            Inbox
+          </div>
+        </ng-template>
+        <mat-card-content>
+          <!-- ============================================================== -->
+          <!-- column -->
+          <!-- ============================================================== -->
+          <form class="basic-form">
+            <div class="row">
+              <div class="col-12">
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Name</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <input matInput placeholder="Name" value="John Deo" />
+                </mat-form-field>
+                <!-- 2 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Email</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <input matInput placeholder="EmailId" type="email" />
+                </mat-form-field>
+                <!-- 3 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Password</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <input matInput placeholder="Password" type="password" />
+                </mat-form-field>
+                <!-- 4 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Select</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <mat-select placeholder="Select">
+                    <mat-option value="option">Option</mat-option>
+                    <mat-option value="option">Option2</mat-option>
+                    <mat-option value="option">Option3</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <!-- 5 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Address</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <textarea matInput placeholder="Address"></textarea>
+                </mat-form-field>
+                <button mat-flat-button>Update Profile</button>
+              </div>
+            </div>
+          </form>
+        </mat-card-content>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div class="d-flex align-items-center gap-12 flex-col">
+            <i-tabler name="settings" class="icon-24 d-flex"></i-tabler>
+            Settings
+          </div>
+        </ng-template>
+        <mat-card-content>
+          <!-- ============================================================== -->
+          <!-- column -->
+          <!-- ============================================================== -->
+          <form class="basic-form">
+            <div class="row">
+              <div class="col-12">
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Name</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <input matInput placeholder="Name" value="John Deo" />
+                </mat-form-field>
+                <!-- 2 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Email</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <input matInput placeholder="Email Id" type="email" />
+                </mat-form-field>
+                <!-- 3 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Password</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <input matInput placeholder="Password" type="password" />
+                </mat-form-field>
+                <!-- 4 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Select</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <mat-select placeholder="Select">
+                    <mat-option value="option">Option</mat-option>
+                    <mat-option value="option">Option2</mat-option>
+                    <mat-option value="option">Option3</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <!-- 5 -->
+                <label class="f-s-14 f-w-500 m-b-4 d-block">Address</label>
+                <mat-form-field class="w-100" appearance="outline">
+                  <textarea matInput placeholder="Address"></textarea>
+                </mat-form-field>
+                <button mat-flat-button color="primary">Update Profile</button>
+              </div>
+            </div>
+          </form>
+        </mat-card-content>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>

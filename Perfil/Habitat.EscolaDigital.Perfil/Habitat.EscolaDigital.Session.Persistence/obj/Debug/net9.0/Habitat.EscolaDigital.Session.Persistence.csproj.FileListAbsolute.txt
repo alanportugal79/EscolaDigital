@@ -1,0 +1,17 @@
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.deps.json
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Application.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Application.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\bin\Debug\net9.0\Habitat.EscolaDigital.Session.Domain.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.csproj.AssemblyReference.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.AssemblyInfoInputs.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.AssemblyInfo.cs
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.csproj.CoreCompileInputs.cache
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat..1FAE3736.Up2Date
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\refint\Habitat.EscolaDigital.Session.Persistence.dll
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\Habitat.EscolaDigital.Session.Persistence.pdb
+F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.Persistence\obj\Debug\net9.0\ref\Habitat.EscolaDigital.Session.Persistence.dll

@@ -1,0 +1,102 @@
+05/08/2025 16:31:08 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+05/08/2025 16:31:08 [Information] Now listening on: "http://localhost:5093"
+05/08/2025 16:31:09 [Information] Application started. Press Ctrl+C to shut down.
+05/08/2025 16:31:09 [Information] Hosting environment: "Development"
+05/08/2025 16:31:09 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+05/08/2025 16:31:23 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+05/08/2025 16:31:25 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 1912.7121ms
+05/08/2025 16:31:25 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger""" - null null
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger""" - 301 0 null 21.8903ms
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - null null
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.html""" - 200 null "text/html;charset=utf-8" 76.9875ms
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.css""" - null null
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - null null
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui.css""" - null null
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.css""" - 200 202 "text/css" 23.3433ms
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - null null
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui.css""" - 200 155175 "text/css" 33.474ms
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-standalone-preset.js""" - 200 229223 "text/javascript" 12.4094ms
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - null null
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/swagger-ui-bundle.js""" - 200 1485750 "text/javascript" 59.7443ms
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 6.6767ms
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/Swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 31.3328ms
+05/08/2025 16:31:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+05/08/2025 16:31:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.8332ms
+05/08/2025 16:31:29 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+05/08/2025 16:31:29 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 74.6697ms
+05/08/2025 16:32:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/session-files/ProfilePhoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 16:32:32 [Information] Sending file. Request path: '"/ProfilePhoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\ProfilePhoto\thumbnail\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+05/08/2025 16:32:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/session-files/ProfilePhoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 4199 "image/jpeg" 54.3396ms
+05/08/2025 16:32:32 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/favicon.ico""" - null null
+05/08/2025 16:32:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/favicon.ico""" - 404 0 null 5.2175ms
+05/08/2025 16:32:32 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/favicon.ico", Response status code: 404
+05/08/2025 17:35:48 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/session-files/ProfilePhoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 17:35:48 [Information] The file "/ProfilePhoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg" was not modified
+05/08/2025 17:35:48 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/session-files/ProfilePhoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 304 null "image/jpeg" 39.9586ms
+05/08/2025 17:37:12 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+05/08/2025 17:37:13 [Information] Now listening on: "http://localhost:5093"
+05/08/2025 17:37:13 [Information] Application started. Press Ctrl+C to shut down.
+05/08/2025 17:37:13 [Information] Hosting environment: "Development"
+05/08/2025 17:37:13 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+05/08/2025 17:37:25 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+05/08/2025 17:37:25 [Information] Now listening on: "http://localhost:5093"
+05/08/2025 17:37:25 [Information] Application started. Press Ctrl+C to shut down.
+05/08/2025 17:37:25 [Information] Hosting environment: "Development"
+05/08/2025 17:37:25 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+05/08/2025 17:38:03 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - null null
+05/08/2025 17:38:03 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/""" - 404 0 null 220.7487ms
+05/08/2025 17:38:03 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/", Response status code: 404
+05/08/2025 17:38:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - null null
+05/08/2025 17:38:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - null null
+05/08/2025 17:38:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_framework/aspnetcore-browser-refresh.js""" - 200 16557 "application/javascript; charset=utf-8" 8.5472ms
+05/08/2025 17:38:06 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 34.578ms
+05/08/2025 17:38:06 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - null null
+05/08/2025 17:38:07 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 157.6639ms
+05/08/2025 17:38:44 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 17:38:44 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 404 0 null 37.4035ms
+05/08/2025 17:38:44 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg", Response status code: 404
+05/08/2025 17:39:26 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 17:39:26 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 404 0 null 6.8499ms
+05/08/2025 17:39:26 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg", Response status code: 404
+05/08/2025 17:40:14 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 17:40:14 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 404 0 null 14.5616ms
+05/08/2025 17:40:14 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg", Response status code: 404
+05/08/2025 17:41:19 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+05/08/2025 17:41:19 [Information] Now listening on: "http://localhost:5093"
+05/08/2025 17:41:19 [Information] Application started. Press Ctrl+C to shut down.
+05/08/2025 17:41:19 [Information] Hosting environment: "Development"
+05/08/2025 17:41:19 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+05/08/2025 17:41:31 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 17:41:32 [Information] Sending file. Request path: '"/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\profilephoto\thumbnail\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+05/08/2025 17:41:32 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 4199 "image/jpeg" 152.051ms
+05/08/2025 18:18:47 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e512.jpg""" - null null
+05/08/2025 18:18:47 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e512.jpg""" - 404 0 null 105.3187ms
+05/08/2025 18:18:47 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e512.jpg", Response status code: 404
+05/08/2025 18:18:54 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 18:18:54 [Information] The file "/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg" was not modified
+05/08/2025 18:18:54 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/sessionfiles/profilephoto/thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 304 null "image/jpeg" 12.9712ms
+05/08/2025 18:49:15 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 18:49:15 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/api/Session/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 404 0 null 50.3709ms
+05/08/2025 18:49:15 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/api/Session/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg", Response status code: 404
+05/08/2025 18:52:41 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 18:52:42 [Information] Sending file. Request path: '"/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\ProfilePhoto\Thumbnail\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+05/08/2025 18:52:42 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 4199 "image/jpeg" 51.3665ms
+05/08/2025 18:55:28 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 18:55:28 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 404 0 null 12.7416ms
+05/08/2025 18:55:28 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5093""""/SessionFiles/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg", Response status code: 404
+05/08/2025 19:12:51 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 19:12:51 [Information] The file "/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg" was not modified
+05/08/2025 19:12:51 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/Thumbnail/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 304 null "image/jpeg" 8.926ms
+05/08/2025 19:27:58 [Information] User profile is available. Using '"C:\Users\alan_\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+05/08/2025 19:27:59 [Information] Now listening on: "http://localhost:5093"
+05/08/2025 19:27:59 [Information] Application started. Press Ctrl+C to shut down.
+05/08/2025 19:27:59 [Information] Hosting environment: "Development"
+05/08/2025 19:27:59 [Information] Content root path: "F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi"
+05/08/2025 19:28:13 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 19:28:13 [Information] Sending file. Request path: '"/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'. Physical path: '"F:\dev\Habitat\EscolaDigital\Perfil\Habitat.EscolaDigital.Perfil\Habitat.EscolaDigital.Session.WebApi\SessionFiles\ProfilePhoto\f676abda-21f6-4f4e-b68d-073cd5941e51.jpg"'
+05/08/2025 19:28:13 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 200 21216 "image/jpeg" 576.1654ms
+05/08/2025 20:55:52 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - null null
+05/08/2025 20:55:52 [Information] The file "/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg" was not modified
+05/08/2025 20:55:52 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5093""""/SessionFiles/ProfilePhoto/f676abda-21f6-4f4e-b68d-073cd5941e51.jpg""" - 304 null "image/jpeg" 8.0892ms

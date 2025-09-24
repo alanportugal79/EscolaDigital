@@ -1,0 +1,34 @@
+<mat-card class="cardWithShadow">
+  <mat-card-content>
+    <mat-card-title>Notification</mat-card-title>
+  </mat-card-content>
+  @for(notification of notifications; track notification.title) {
+  <div class="p-y-16 p-x-30 w-100 b-b-1 cursor-pointer">
+    <div class="d-flex align-items-center w-100 gap-16">
+      <span
+        class="flex-shrink-0 text-{{ notification.color }} bg-light-{{
+          notification.color
+        }} rounded-circle icon-40 d-flex align-items-center justify-content-center"
+      >
+        <i-tabler
+          class="icon-20 d-flex"
+          name="{{ notification.icon }}"
+        ></i-tabler>
+      </span>
+      <div class="w-100">
+        <div class="d-flex align-items-center justify-content-between w-100">
+          <h5 class="f-s-14 f-w-500 m-0 lh-sm">
+            {{ notification.title }}
+          </h5>
+          <span class="d-block f-s-12 lh-sm">
+            {{ notification.time }}</span
+          >
+        </div>
+        <span class="d-block text-truncate f-s-12 w-75 lh-sm">{{
+          notification.subtitle
+        }}</span>
+      </div>
+    </div>
+  </div>
+  }
+</mat-card>

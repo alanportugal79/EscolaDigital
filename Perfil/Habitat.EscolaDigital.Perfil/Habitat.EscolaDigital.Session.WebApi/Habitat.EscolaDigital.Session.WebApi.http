@@ -1,0 +1,6 @@
+@Habitat.EscolaDigital.Session.WebApi_HostAddress = http://localhost:5093
+
+GET {{Habitat.EscolaDigital.Session.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
