@@ -1,0 +1,4 @@
+@Library('aspnetcore-pipeline') _
+multibrachPepilineDocker {
+  variavel = teste
+}
