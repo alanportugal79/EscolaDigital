@@ -1,5 +1,6 @@
 @Library('aspnetcore-pipeline') _
 multibrachPepilineDocker {
   sourceDir = 'Web/Angular/main'
-  imgName = 'escola-digital-frontend'
+  imgName = 'escola-digital'
+  platform = 'web'
 }
