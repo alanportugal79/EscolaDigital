@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.WebApi", "Entebra.EscolaDigital.WebApi\Entebra.EscolaDigital.WebApi.csproj", "{546FFAE0-351D-4D22-A76B-4F3A9AA12811}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F} = {8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}
+		{8FF76756-0B06-4C94-9EDF-55E2A8E8D869} = {8FF76756-0B06-4C94-9EDF-55E2A8E8D869}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{AB2016EE-99E0-496E-9721-734CD394140D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session", "Session", "{4DD2CAF5-0B56-4167-98F0-460A494AAB8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CadastroEscola", "CadastroEscola", "{F058EED4-4357-4ACF-918D-573217EE0AE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estudante", "Estudante", "{72565EA9-DC4F-4DDC-BC35-7B918F93E94F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{EDC203F4-9132-4F82-AB36-96C964375312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.CadastroEscola", "Modulos\CadastroEscola\Entebra.EscolaDigital.CadastroEscola\Entebra.EscolaDigital.CadastroEscola.csproj", "{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.CadastroEscola.Core", "Modulos\CadastroEscola\Entebra.EscolaDigital.CadastroEscola.Core\Entebra.EscolaDigital.CadastroEscola.Core.csproj", "{3BBC0814-229E-43EF-96E1-DA58DAD62691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.CadastroEscola.Infrastructure", "Modulos\CadastroEscola\Entebra.EscolaDigital.CadastroEscola.Infrastructure\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj", "{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.Shared.Infrastructure", "Entebra.EscolaDigital.Shared.Infrastructure\Entebra.EscolaDigital.Shared.Infrastructure.csproj", "{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EsolaDigital.Shared.Core", "Entebra.EsolaDigital.Shared.Core\Entebra.EsolaDigital.Shared.Core.csproj", "{4F4DE5E4-4426-49B6-BD87-63F54193911F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.CadastroEscola.Domain", "Modulos\CadastroEscola\Entebra.EscolaDigital.CadastroEscola.Domain\Entebra.EscolaDigital.CadastroEscola.Domain.csproj", "{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.Shared.Domain", "Entebra.EscolaDigital.Shared.Domain\Entebra.EscolaDigital.Shared.Domain.csproj", "{1F99A0B6-7C11-49E6-921D-2C2368A475AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.Session", "Modulos\Session\Entebra.EscolaDigital.Session\Entebra.EscolaDigital.Session.csproj", "{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.Session.Core", "Modulos\Session\Entebra.EscolaDigital.Session.Core\Entebra.EscolaDigital.Session.Core.csproj", "{8795F750-C3D5-4C13-BB70-EA0F1D90134D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.Session.Domain", "Modulos\Session\Entebra.EscolaDigital.Session.Domain\Entebra.EscolaDigital.Session.Domain.csproj", "{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entebra.EscolaDigital.Session.Infrastructure", "Modulos\Session\Entebra.EscolaDigital.Session.Infrastructure\Entebra.EscolaDigital.Session.Infrastructure.csproj", "{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546FFAE0-351D-4D22-A76B-4F3A9AA12811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546FFAE0-351D-4D22-A76B-4F3A9AA12811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546FFAE0-351D-4D22-A76B-4F3A9AA12811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546FFAE0-351D-4D22-A76B-4F3A9AA12811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBC0814-229E-43EF-96E1-DA58DAD62691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBC0814-229E-43EF-96E1-DA58DAD62691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBC0814-229E-43EF-96E1-DA58DAD62691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBC0814-229E-43EF-96E1-DA58DAD62691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4DE5E4-4426-49B6-BD87-63F54193911F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4DE5E4-4426-49B6-BD87-63F54193911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4DE5E4-4426-49B6-BD87-63F54193911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4DE5E4-4426-49B6-BD87-63F54193911F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F99A0B6-7C11-49E6-921D-2C2368A475AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F99A0B6-7C11-49E6-921D-2C2368A475AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F99A0B6-7C11-49E6-921D-2C2368A475AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F99A0B6-7C11-49E6-921D-2C2368A475AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8795F750-C3D5-4C13-BB70-EA0F1D90134D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8795F750-C3D5-4C13-BB70-EA0F1D90134D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8795F750-C3D5-4C13-BB70-EA0F1D90134D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8795F750-C3D5-4C13-BB70-EA0F1D90134D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{546FFAE0-351D-4D22-A76B-4F3A9AA12811} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4DD2CAF5-0B56-4167-98F0-460A494AAB8F} = {AB2016EE-99E0-496E-9721-734CD394140D}
+		{F058EED4-4357-4ACF-918D-573217EE0AE7} = {AB2016EE-99E0-496E-9721-734CD394140D}
+		{72565EA9-DC4F-4DDC-BC35-7B918F93E94F} = {AB2016EE-99E0-496E-9721-734CD394140D}
+		{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F} = {F058EED4-4357-4ACF-918D-573217EE0AE7}
+		{3BBC0814-229E-43EF-96E1-DA58DAD62691} = {F058EED4-4357-4ACF-918D-573217EE0AE7}
+		{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E} = {F058EED4-4357-4ACF-918D-573217EE0AE7}
+		{8FF76756-0B06-4C94-9EDF-55E2A8E8D869} = {EDC203F4-9132-4F82-AB36-96C964375312}
+		{4F4DE5E4-4426-49B6-BD87-63F54193911F} = {EDC203F4-9132-4F82-AB36-96C964375312}
+		{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB} = {F058EED4-4357-4ACF-918D-573217EE0AE7}
+		{1F99A0B6-7C11-49E6-921D-2C2368A475AC} = {EDC203F4-9132-4F82-AB36-96C964375312}
+		{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3} = {4DD2CAF5-0B56-4167-98F0-460A494AAB8F}
+		{8795F750-C3D5-4C13-BB70-EA0F1D90134D} = {4DD2CAF5-0B56-4167-98F0-460A494AAB8F}
+		{7ED0FB18-89C0-4E34-995C-42AA378EC1E7} = {4DD2CAF5-0B56-4167-98F0-460A494AAB8F}
+		{197134C3-EDB5-4754-B6EE-14C2C2AC8D21} = {4DD2CAF5-0B56-4167-98F0-460A494AAB8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60320293-DB11-4E30-94EA-BBF5CAAA17D4}
+	EndGlobalSection
+EndGlobal

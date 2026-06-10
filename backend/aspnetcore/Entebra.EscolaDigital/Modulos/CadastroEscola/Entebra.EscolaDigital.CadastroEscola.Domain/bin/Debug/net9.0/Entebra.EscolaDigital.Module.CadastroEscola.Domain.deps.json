@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Entebra.EscolaDigital.Module.CadastroEscola.Domain/1.0.0": {
+        "dependencies": {
+          "Entebra.EscolaDigital.Shared.Domain": "1.0.0",
+          "Entebra.EsolaDigital.Shared.Core": "1.0.0"
+        },
+        "runtime": {
+          "Entebra.EscolaDigital.Module.CadastroEscola.Domain.dll": {}
+        }
+      },
+      "Entebra.EscolaDigital.Shared.Domain/1.0.0": {
+        "runtime": {
+          "Entebra.EscolaDigital.Shared.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Entebra.EsolaDigital.Shared.Core/1.0.0": {
+        "runtime": {
+          "Entebra.EsolaDigital.Shared.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entebra.EscolaDigital.Module.CadastroEscola.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entebra.EscolaDigital.Shared.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entebra.EsolaDigital.Shared.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

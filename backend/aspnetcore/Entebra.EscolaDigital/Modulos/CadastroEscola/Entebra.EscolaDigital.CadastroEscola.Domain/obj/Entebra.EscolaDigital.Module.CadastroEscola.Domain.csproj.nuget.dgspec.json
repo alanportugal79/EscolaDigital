@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Module.Escola.Domain\\Entebra.EscolaDigital.Module.CadastroEscola.Domain.csproj": {}
+  },
+  "projects": {
+    "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Module.Escola.Domain\\Entebra.EscolaDigital.Module.CadastroEscola.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Module.Escola.Domain\\Entebra.EscolaDigital.Module.CadastroEscola.Domain.csproj",
+        "projectName": "Entebra.EscolaDigital.Module.CadastroEscola.Domain",
+        "projectPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Module.Escola.Domain\\Entebra.EscolaDigital.Module.CadastroEscola.Domain.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Module.Escola.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj": {
+                "projectPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj"
+              },
+              "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj": {
+                "projectPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj",
+        "projectName": "Entebra.EscolaDigital.Shared.Domain",
+        "projectPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj",
+        "projectName": "Entebra.EsolaDigital.Shared.Core",
+        "projectPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj",
+        "packagesPath": "C:\\Users\\alan_\\.nuget\\packages\\",
+        "outputPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

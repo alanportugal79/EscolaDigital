@@ -1,0 +1,16 @@
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.deps.json
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.csproj.AssemblyReference.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.AssemblyInfoInputs.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.AssemblyInfo.cs
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.csproj.CoreCompileInputs.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.sourcelink.json
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\refint\Entebra.EscolaDigital.Shared.Infrastructure.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Infrastructure.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\ref\Entebra.EscolaDigital.Shared.Infrastructure.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Infrastructure\obj\Debug\net9.0\Entebra..A0A1B894.Up2Date

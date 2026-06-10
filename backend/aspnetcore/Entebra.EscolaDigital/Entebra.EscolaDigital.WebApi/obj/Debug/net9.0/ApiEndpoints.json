@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.EscolaController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Escola",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.EscolaController",
+    "Method": "InsertAsync",
+    "RelativePath": "api/Escola",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "escolaInsertDto",
+        "Type": "Entebra.EscolaDigital.CadastroEscola.Core.Dto.EscolaDto.EscolaInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.EscolaController",
+    "Method": "GetByUidAsync",
+    "RelativePath": "api/Escola/{uid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.EscolaController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Escola/{uid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "escolaUpdateDto",
+        "Type": "Entebra.EscolaDigital.CadastroEscola.Core.Dto.EscolaDto.EscolaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.EscolaController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Escola/{uid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.EscolaController",
+    "Method": "GetTeste",
+    "RelativePath": "api/Escola/get-teste",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Entebra.EscolaDigital.CadastroEscola.Controllers.SituacaoEscolaController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/SituacaoEscola",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.infrastructure\\controllers\\internalcontrollerfeatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|solutionrelative:entebra.escoladigital.shared.infrastructure\\controllers\\internalcontrollerfeatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|solutionrelative:entebra.escoladigital.shared.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola\\moduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola\\moduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|solutionrelative:entebra.escoladigital.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}|Modulos\\Session\\Entebra.EscolaDigital.Session.Infrastructure\\Entebra.EscolaDigital.Session.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\session\\entebra.escoladigital.session.infrastructure\\persistence\\queries\\menuquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197134C3-EDB5-4754-B6EE-14C2C2AC8D21}|Modulos\\Session\\Entebra.EscolaDigital.Session.Infrastructure\\Entebra.EscolaDigital.Session.Infrastructure.csproj|solutionrelative:modulos\\session\\entebra.escoladigital.session.infrastructure\\persistence\\queries\\menuquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.infrastructure\\persistence\\moduledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|solutionrelative:entebra.escoladigital.shared.infrastructure\\persistence\\moduledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.infrastructure\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|solutionrelative:entebra.escoladigital.shared.infrastructure\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.infrastructure\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF76756-0B06-4C94-9EDF-55E2A8E8D869}|Entebra.EscolaDigital.Shared.Infrastructure\\Entebra.EscolaDigital.Shared.Infrastructure.csproj|solutionrelative:entebra.escoladigital.shared.infrastructure\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|solutionrelative:entebra.escoladigital.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|solutionrelative:entebra.escoladigital.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\queries\\escolaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\queries\\escolaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\repositories\\unidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\repositories\\unidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\repositories\\situacaoescolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\repositories\\situacaoescolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\repositories\\escolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\repositories\\escolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}|Modulos\\Session\\Entebra.EscolaDigital.Session\\Entebra.EscolaDigital.Session.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\session\\entebra.escoladigital.session\\entebra.escoladigital.session.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D53C43FA-0B7C-4D1E-AACA-BF8C803AFBA3}|Modulos\\Session\\Entebra.EscolaDigital.Session\\Entebra.EscolaDigital.Session.csproj|solutionrelative:modulos\\session\\entebra.escoladigital.session\\entebra.escoladigital.session.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}|Modulos\\Session\\Entebra.EscolaDigital.Session.Domain\\Entebra.EscolaDigital.Session.Domain.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\session\\entebra.escoladigital.session.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED0FB18-89C0-4E34-995C-42AA378EC1E7}|Modulos\\Session\\Entebra.EscolaDigital.Session.Domain\\Entebra.EscolaDigital.Session.Domain.csproj|solutionrelative:modulos\\session\\entebra.escoladigital.session.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8795F750-C3D5-4C13-BB70-EA0F1D90134D}|Modulos\\Session\\Entebra.EscolaDigital.Session.Core\\Entebra.EscolaDigital.Session.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\session\\entebra.escoladigital.session.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8795F750-C3D5-4C13-BB70-EA0F1D90134D}|Modulos\\Session\\Entebra.EscolaDigital.Session.Core\\Entebra.EscolaDigital.Session.Core.csproj|solutionrelative:modulos\\session\\entebra.escoladigital.session.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\queries\\unidadequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\queries\\unidadequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\queries\\situacaoescolaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1F2132-FF79-44AF-BC54-87B7DA80EF9E}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Entebra.EscolaDigital.CadastroEscola.Infrastructure.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.infrastructure\\persistence\\queries\\situacaoescolaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F99A0B6-7C11-49E6-921D-2C2368A475AC}|Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F99A0B6-7C11-49E6-921D-2C2368A475AC}|Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj|solutionrelative:entebra.escoladigital.shared.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F99A0B6-7C11-49E6-921D-2C2368A475AC}|Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.domain\\extensions\\resultextentions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F99A0B6-7C11-49E6-921D-2C2368A475AC}|Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj|solutionrelative:entebra.escoladigital.shared.domain\\extensions\\resultextentions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F99A0B6-7C11-49E6-921D-2C2368A475AC}|Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.shared.domain\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F99A0B6-7C11-49E6-921D-2C2368A475AC}|Entebra.EscolaDigital.Shared.Domain\\Entebra.EscolaDigital.Shared.Domain.csproj|solutionrelative:entebra.escoladigital.shared.domain\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4DE5E4-4426-49B6-BD87-63F54193911F}|Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.esoladigital.shared.core\\entebra.esoladigital.shared.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F4DE5E4-4426-49B6-BD87-63F54193911F}|Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj|solutionrelative:entebra.esoladigital.shared.core\\entebra.esoladigital.shared.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.webapi\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|solutionrelative:entebra.escoladigital.webapi\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\entebra.escoladigital.webapi\\extensions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{546FFAE0-351D-4D22-A76B-4F3A9AA12811}|Entebra.EscolaDigital.WebApi\\Entebra.EscolaDigital.WebApi.csproj|solutionrelative:entebra.escoladigital.webapi\\extensions\\authextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola\\controllers\\situacaoescolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C079B9C-27EA-4FD2-B37F-62B16CA15A6F}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola\\controllers\\situacaoescolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\services\\escolaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\services\\escolaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entebra.EscolaDigital.CadastroEscola.Domain.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.domain\\interfaces\\iescolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entebra.EscolaDigital.CadastroEscola.Domain.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.domain\\interfaces\\iescolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\dto\\escoladto\\escoladeleteresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\dto\\escoladto\\escoladeleteresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\interfaces\\iescolaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\interfaces\\iescolaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entebra.EscolaDigital.CadastroEscola.Domain.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.domain\\entities\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602C4E48-B9C7-4C1F-9379-AFD1B3DA78FB}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entebra.EscolaDigital.CadastroEscola.Domain.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.domain\\entities\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\services\\unidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\services\\unidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|f:\\dev\\habitat\\escoladigital\\backend\\aspnetcore\\entebra.escoladigital\\modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\dto\\escoladto\\escolainsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBC0814-229E-43EF-96E1-DA58DAD62691}|Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Entebra.EscolaDigital.CadastroEscola.Core.csproj|solutionrelative:modulos\\cadastroescola\\entebra.escoladigital.cadastroescola.core\\dto\\escoladto\\escolainsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InternalControllerFeatureProvider.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Controllers\\InternalControllerFeatureProvider.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Infrastructure\\Controllers\\InternalControllerFeatureProvider.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Controllers\\InternalControllerFeatureProvider.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Infrastructure\\Controllers\\InternalControllerFeatureProvider.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T18:48:20.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuQuery.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session.Infrastructure\\Persistence\\Queries\\MenuQuery.cs",
+              "RelativeDocumentMoniker": "Modulos\\Session\\Entebra.EscolaDigital.Session.Infrastructure\\Persistence\\Queries\\MenuQuery.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session.Infrastructure\\Persistence\\Queries\\MenuQuery.cs",
+              "RelativeToolTip": "Modulos\\Session\\Entebra.EscolaDigital.Session.Infrastructure\\Persistence\\Queries\\MenuQuery.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:50:06.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnidadeRepository.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\UnidadeRepository.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\UnidadeRepository.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\UnidadeRepository.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\UnidadeRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T16:05:03.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EscolaQuery.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\EscolaQuery.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\EscolaQuery.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\EscolaQuery.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\EscolaQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:52:53.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModuleDbContext.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Persistence\\ModuleDbContext.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Infrastructure\\Persistence\\ModuleDbContext.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Persistence\\ModuleDbContext.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Infrastructure\\Persistence\\ModuleDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T22:37:47.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.WebApi\\Program.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Program.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:26:56.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:57:31.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModuleExtensions.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\ModuleExtensions.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\ModuleExtensions.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\ModuleExtensions.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\ModuleExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T19:40:42.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:46:39.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Entebra.EscolaDigital.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T15:56:26.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Exceptions\\CustomException.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Infrastructure\\Exceptions\\CustomException.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Exceptions\\CustomException.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Infrastructure\\Exceptions\\CustomException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:59:49.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Services\\TenantService.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Infrastructure\\Services\\TenantService.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Infrastructure\\Services\\TenantService.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Infrastructure\\Services\\TenantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T00:17:35.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SituacaoEscolaRepository.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\SituacaoEscolaRepository.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\SituacaoEscolaRepository.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\SituacaoEscolaRepository.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\SituacaoEscolaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:47:57.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entebra.EscolaDigital.Session.csproj",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session\\Entebra.EscolaDigital.Session.csproj",
+              "RelativeDocumentMoniker": "Modulos\\Session\\Entebra.EscolaDigital.Session\\Entebra.EscolaDigital.Session.csproj",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session\\Entebra.EscolaDigital.Session.csproj",
+              "RelativeToolTip": "Modulos\\Session\\Entebra.EscolaDigital.Session\\Entebra.EscolaDigital.Session.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T15:45:33.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Modulos\\Session\\Entebra.EscolaDigital.Session.Domain\\Class1.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session.Domain\\Class1.cs",
+              "RelativeToolTip": "Modulos\\Session\\Entebra.EscolaDigital.Session.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:44:45.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "Modulos\\Session\\Entebra.EscolaDigital.Session.Core\\Class1.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\Session\\Entebra.EscolaDigital.Session.Core\\Class1.cs",
+              "RelativeToolTip": "Modulos\\Session\\Entebra.EscolaDigital.Session.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:43:59.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.WebApi\\appsettings.json",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\appsettings.json",
+              "RelativeToolTip": "Entebra.EscolaDigital.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T14:23:58.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EscolaController.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\EscolaController.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\EscolaController.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\EscolaController.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\EscolaController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T22:56:37.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:49:44.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ResultExtensions.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Extensions\\ResultExtentions\\ResultExtensions.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Domain\\Extensions\\ResultExtentions\\ResultExtensions.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Extensions\\ResultExtentions\\ResultExtensions.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Domain\\Extensions\\ResultExtentions\\ResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T00:51:01.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EscolaRepository.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\EscolaRepository.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\EscolaRepository.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\EscolaRepository.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Repositories\\EscolaRepository.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:49:28.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Entebra.EsolaDigital.Shared.Core.csproj",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj",
+              "RelativeDocumentMoniker": "Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj",
+              "RelativeToolTip": "Entebra.EsolaDigital.Shared.Core\\Entebra.EsolaDigital.Shared.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T00:07:09.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SituacaoEscolaQuery.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\SituacaoEscolaQuery.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\SituacaoEscolaQuery.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\SituacaoEscolaQuery.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\SituacaoEscolaQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T00:26:09.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnidadeQuery.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\UnidadeQuery.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\UnidadeQuery.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\UnidadeQuery.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Infrastructure\\Persistence\\Queries\\UnidadeQuery.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T00:26:22.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ITenantService.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Interfaces\\ITenantService.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.Shared.Domain\\Interfaces\\ITenantService.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.Shared.Domain\\Interfaces\\ITenantService.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.Shared.Domain\\Interfaces\\ITenantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T00:15:21.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SituacaoEscolaController.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\SituacaoEscolaController.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\SituacaoEscolaController.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\SituacaoEscolaController.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola\\Controllers\\SituacaoEscolaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:06:09.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IEscolaRepository.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Interfaces\\IEscolaRepository.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Interfaces\\IEscolaRepository.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Interfaces\\IEscolaRepository.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Interfaces\\IEscolaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:04:45.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SwaggerExtensions.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Extensions\\SwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.WebApi\\Extensions\\SwaggerExtensions.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Extensions\\SwaggerExtensions.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.WebApi\\Extensions\\SwaggerExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:19:44.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthExtensions.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Extensions\\AuthExtensions.cs",
+              "RelativeDocumentMoniker": "Entebra.EscolaDigital.WebApi\\Extensions\\AuthExtensions.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Entebra.EscolaDigital.WebApi\\Extensions\\AuthExtensions.cs",
+              "RelativeToolTip": "Entebra.EscolaDigital.WebApi\\Extensions\\AuthExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:17:11.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Escola.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entities\\Escola.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entities\\Escola.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entities\\Escola.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Domain\\Entities\\Escola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:49:31.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EscolaDeleteResultDto.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaDeleteResultDto.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaDeleteResultDto.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaDeleteResultDto.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaDeleteResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:48:22.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EscolaService.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\EscolaService.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\EscolaService.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\EscolaService.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\EscolaService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T22:14:30.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEscolaService.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Interfaces\\IEscolaService.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Interfaces\\IEscolaService.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Interfaces\\IEscolaService.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Interfaces\\IEscolaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T22:06:41.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EscolaInsertDto.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaInsertDto.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaInsertDto.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaInsertDto.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Dto\\EscolaDto\\EscolaInsertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T22:08:09.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnidadeService.cs",
+              "DocumentMoniker": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\UnidadeService.cs",
+              "RelativeDocumentMoniker": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\UnidadeService.cs",
+              "ToolTip": "F:\\dev\\Habitat\\EscolaDigital\\backend\\aspnetcore\\Entebra.EscolaDigital\\Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\UnidadeService.cs",
+              "RelativeToolTip": "Modulos\\CadastroEscola\\Entebra.EscolaDigital.CadastroEscola.Core\\Services\\UnidadeService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T22:55:54.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

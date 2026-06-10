@@ -1,0 +1,12 @@
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.deps.json
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\bin\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.AssemblyInfoInputs.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.AssemblyInfo.cs
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.csproj.CoreCompileInputs.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.sourcelink.json
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\refint\Entebra.EscolaDigital.Shared.Domain.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\Entebra.EscolaDigital.Shared.Domain.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Shared.Domain\obj\Debug\net9.0\ref\Entebra.EscolaDigital.Shared.Domain.dll

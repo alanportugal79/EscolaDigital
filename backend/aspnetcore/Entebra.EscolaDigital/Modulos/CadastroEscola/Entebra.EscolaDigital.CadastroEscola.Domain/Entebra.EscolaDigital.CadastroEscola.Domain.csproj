@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Entebra.EscolaDigital.Shared.Domain\Entebra.EscolaDigital.Shared.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Entebra.EsolaDigital.Shared.Core\Entebra.EsolaDigital.Shared.Core.csproj" />
+  </ItemGroup>
+
+</Project>

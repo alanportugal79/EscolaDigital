@@ -1,0 +1,13 @@
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\bin\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.deps.json
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\bin\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\bin\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.csproj.AssemblyReference.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.GeneratedMSBuildEditorConfig.editorconfig
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.AssemblyInfoInputs.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.AssemblyInfo.cs
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.csproj.CoreCompileInputs.cache
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.sourcelink.json
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\refint\Entebra.EscolaDigital.Module.Escola.dll
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\Entebra.EscolaDigital.Module.Escola.pdb
+F:\dev\Habitat\EscolaDigital\backend\aspnetcore\Entebra.EscolaDigital\Entebra.EscolaDigital.Modules.Escola\obj\Debug\net9.0\ref\Entebra.EscolaDigital.Module.Escola.dll
