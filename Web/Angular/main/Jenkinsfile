@@ -3,4 +3,6 @@ multibrachPepilineDocker {
   sourceDir = 'Web/Angular/main'
   imgName = 'escola-digital'
   platform = 'web'
+  domain = 'entebra'  
+  stackName = 'escola-digital'
 }
